@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="A clean, evidence-based flashcard app for language learners. Spaced repetition, no tracking, your data stays in your browser." />
+    <title>Flashcards</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='15' y='25' width='70' height='50' rx='8' fill='%234f46e5'/%3E%3Crect x='25' y='35' width='70' height='50' rx='8' fill='%23ffffff' stroke='%234f46e5' stroke-width='4'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/" data-route="home">
+        <svg viewBox="0 0 100 100" width="22" height="22" aria-hidden="true">
+          <rect x="15" y="25" width="70" height="50" rx="8" fill="currentColor" opacity="0.4"/>
+          <rect x="25" y="35" width="70" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="6"/>
+        </svg>
+        <span>Flashcards</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#/" data-route="home">Decks</a>
+        <a href="#/stats" data-route="stats">Stats</a>
+        <a href="#/about" data-route="about">About</a>
+      </nav>
+      <div class="topbar-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="app" class="app">
+      <div class="loading" aria-live="polite">Loading…</div>
+    </main>
+
+    <footer class="footer">
+      <span>
+        <a href="https://github.com/TS00/flashcards" target="_blank" rel="noopener">Source on GitHub</a>
+        · MIT licensed
+        · Your data stays in your browser
+      </span>
+    </footer>
+
+    <dialog id="help-dialog" class="dialog">
+      <form method="dialog">
+        <h2>Keyboard shortcuts</h2>
+        <table class="kbd-table">
+          <tr><td><kbd>Space</kbd></td><td>Flip card</td></tr>
+          <tr><td><kbd>1</kbd></td><td>Again (forgot)</td></tr>
+          <tr><td><kbd>2</kbd></td><td>Hard</td></tr>
+          <tr><td><kbd>3</kbd></td><td>Good</td></tr>
+          <tr><td><kbd>4</kbd></td><td>Easy</td></tr>
+          <tr><td><kbd>S</kbd></td><td>Speak the prompt</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>Leave session</td></tr>
+          <tr><td><kbd>?</kbd></td><td>Show this help</td></tr>
+        </table>
+        <button class="btn btn-primary" autofocus>Got it</button>
+      </form>
+    </dialog>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>

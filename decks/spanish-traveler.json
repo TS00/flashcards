@@ -1,0 +1,6248 @@
+{
+  "meta": {
+    "id": "spanish-traveler",
+    "name": "Spanish for South American Travelers",
+    "description": "~500 words and phrases for a beginner trip to South America. Sequenced from cognates to survival phrases to real-world scenarios.",
+    "version": "1.0.0",
+    "frontLang": "es",
+    "frontLocale": "es-419",
+    "backLang": "en",
+    "license": "MIT",
+    "attribution": "Original curation. Word frequency cross-referenced against doozan/spanish_data (CC-BY-4.0) and the RAE CREA corpus.",
+    "ttsRate": 0.85
+  },
+  "units": [
+    {
+      "id": "u01-cognates",
+      "name": "1 · Free wins (cognates)",
+      "blurb": "Words you basically already know from English."
+    },
+    {
+      "id": "u02-greetings",
+      "name": "2 · Greetings & politeness",
+      "blurb": "The first 30 seconds of every interaction."
+    },
+    {
+      "id": "u03-survival",
+      "name": "3 · Survival phrases",
+      "blurb": "\"I don't understand\", \"where is the bathroom\", \"help\"."
+    },
+    {
+      "id": "u04-pronouns",
+      "name": "4 · Pronouns & articles",
+      "blurb": "The glue words that hold sentences together."
+    },
+    {
+      "id": "u05-numbers",
+      "name": "5 · Numbers & time",
+      "blurb": "Counting, days, telling time."
+    },
+    {
+      "id": "u06-verbs",
+      "name": "6 · Top verbs",
+      "blurb": "The 50 most-used Spanish verbs (infinitive + yo/tú present)."
+    },
+    {
+      "id": "u07-questions",
+      "name": "7 · Question words & adverbs",
+      "blurb": "How to ask and qualify."
+    },
+    {
+      "id": "u08-transit",
+      "name": "8 · Directions & transit",
+      "blurb": "Getting around: buses, streets, navigation."
+    },
+    {
+      "id": "u09-food",
+      "name": "9 · Food & restaurants",
+      "blurb": "Ordering, reading menus, dietary needs."
+    },
+    {
+      "id": "u10-lodging",
+      "name": "10 · Lodging",
+      "blurb": "Hotels, hostels, Airbnb check-in vocab."
+    },
+    {
+      "id": "u11-money",
+      "name": "11 · Money & shopping",
+      "blurb": "Prices, ATMs, bargaining, receipts."
+    },
+    {
+      "id": "u12-emergency",
+      "name": "12 · Emergency & health",
+      "blurb": "Doctor visits, pharmacies, safety."
+    },
+    {
+      "id": "u13-people",
+      "name": "13 · People & family",
+      "blurb": "Talking about and to people."
+    },
+    {
+      "id": "u14-adjectives",
+      "name": "14 · Common adjectives",
+      "blurb": "Describing things."
+    },
+    {
+      "id": "u15-connectors",
+      "name": "15 · Prepositions & connectors",
+      "blurb": "Joining ideas together."
+    },
+    {
+      "id": "u16-body",
+      "name": "16 · Body & clothing",
+      "blurb": "Useful for shopping and doctors."
+    }
+  ],
+  "cards": [
+    {
+      "id": "u01-cognates-el-hospital",
+      "front": "el hospital",
+      "back": "the hospital",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "health"
+      ],
+      "exampleFront": "El hospital está cerca.",
+      "exampleBack": "The hospital is nearby.",
+      "ttsText": "hospital"
+    },
+    {
+      "id": "u01-cognates-el-taxi",
+      "front": "el taxi",
+      "back": "the taxi",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "transit"
+      ],
+      "exampleFront": "Necesito un taxi.",
+      "exampleBack": "I need a taxi.",
+      "ttsText": "taxi"
+    },
+    {
+      "id": "u01-cognates-el-hotel",
+      "front": "el hotel",
+      "back": "the hotel",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "lodging"
+      ],
+      "exampleFront": "El hotel es muy bueno.",
+      "exampleBack": "The hotel is very good.",
+      "ttsText": "hotel"
+    },
+    {
+      "id": "u01-cognates-el-restaurante",
+      "front": "el restaurante",
+      "back": "the restaurant",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "food"
+      ],
+      "exampleFront": "El restaurante cierra a las diez.",
+      "exampleBack": "The restaurant closes at ten.",
+      "ttsText": "restaurante"
+    },
+    {
+      "id": "u01-cognates-el-banco",
+      "front": "el banco",
+      "back": "the bank",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "money"
+      ],
+      "exampleFront": "¿Hay un banco cerca?",
+      "exampleBack": "Is there a bank nearby?",
+      "ttsText": "banco"
+    },
+    {
+      "id": "u01-cognates-el-doctor",
+      "front": "el doctor",
+      "back": "the doctor",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "health"
+      ],
+      "exampleFront": "Necesito ver a un doctor.",
+      "exampleBack": "I need to see a doctor.",
+      "ttsText": "doctor"
+    },
+    {
+      "id": "u01-cognates-importante",
+      "front": "importante",
+      "back": "important",
+      "unit": "u01-cognates",
+      "pos": "adj",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Es muy importante.",
+      "exampleBack": "It's very important.",
+      "ttsText": "importante"
+    },
+    {
+      "id": "u01-cognates-posible",
+      "front": "posible",
+      "back": "possible",
+      "unit": "u01-cognates",
+      "pos": "adj",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "¿Es posible?",
+      "exampleBack": "Is it possible?",
+      "ttsText": "posible"
+    },
+    {
+      "id": "u01-cognates-imposible",
+      "front": "imposible",
+      "back": "impossible",
+      "unit": "u01-cognates",
+      "pos": "adj",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "No es imposible.",
+      "exampleBack": "It's not impossible.",
+      "ttsText": "imposible"
+    },
+    {
+      "id": "u01-cognates-el-problema",
+      "front": "el problema",
+      "back": "the problem",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "No hay problema.",
+      "exampleBack": "No problem.",
+      "ttsText": "problema"
+    },
+    {
+      "id": "u01-cognates-el-momento",
+      "front": "el momento",
+      "back": "the moment",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Un momento, por favor.",
+      "exampleBack": "One moment, please.",
+      "ttsText": "momento"
+    },
+    {
+      "id": "u01-cognates-la-persona",
+      "front": "la persona",
+      "back": "the person",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "people"
+      ],
+      "exampleFront": "Es una buena persona.",
+      "exampleBack": "They're a good person.",
+      "ttsText": "persona"
+    },
+    {
+      "id": "u01-cognates-la-familia",
+      "front": "la familia",
+      "back": "the family",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "people"
+      ],
+      "exampleFront": "Mi familia es grande.",
+      "exampleBack": "My family is big.",
+      "ttsText": "familia"
+    },
+    {
+      "id": "u01-cognates-la-idea",
+      "front": "la idea",
+      "back": "the idea",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "¡Buena idea!",
+      "exampleBack": "Good idea!",
+      "ttsText": "idea"
+    },
+    {
+      "id": "u01-cognates-la-oficina",
+      "front": "la oficina",
+      "back": "the office",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "La oficina está cerrada.",
+      "exampleBack": "The office is closed.",
+      "ttsText": "oficina"
+    },
+    {
+      "id": "u01-cognates-el-parque",
+      "front": "el parque",
+      "back": "the park",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Vamos al parque.",
+      "exampleBack": "Let's go to the park.",
+      "ttsText": "parque"
+    },
+    {
+      "id": "u01-cognates-la-plaza",
+      "front": "la plaza",
+      "back": "the plaza / town square",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "transit"
+      ],
+      "exampleFront": "Nos vemos en la plaza.",
+      "exampleBack": "See you at the plaza.",
+      "ttsText": "plaza"
+    },
+    {
+      "id": "u01-cognates-el-museo",
+      "front": "el museo",
+      "back": "the museum",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "El museo es gratis hoy.",
+      "exampleBack": "The museum is free today.",
+      "ttsText": "museo"
+    },
+    {
+      "id": "u01-cognates-el-supermercado",
+      "front": "el supermercado",
+      "back": "the supermarket",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "shopping"
+      ],
+      "exampleFront": "Voy al supermercado.",
+      "exampleBack": "I'm going to the supermarket.",
+      "ttsText": "supermercado"
+    },
+    {
+      "id": "u01-cognates-la-farmacia",
+      "front": "la farmacia",
+      "back": "the pharmacy",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "health"
+      ],
+      "exampleFront": "¿Dónde hay una farmacia?",
+      "exampleBack": "Where is there a pharmacy?",
+      "ttsText": "farmacia"
+    },
+    {
+      "id": "u01-cognates-el-cafe",
+      "front": "el café",
+      "back": "the coffee / café",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "food"
+      ],
+      "exampleFront": "Un café, por favor.",
+      "exampleBack": "A coffee, please.",
+      "ttsText": "café"
+    },
+    {
+      "id": "u01-cognates-el-animal",
+      "front": "el animal",
+      "back": "the animal",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "ttsText": "animal"
+    },
+    {
+      "id": "u01-cognates-la-capital",
+      "front": "la capital",
+      "back": "the capital",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Lima es la capital de Perú.",
+      "exampleBack": "Lima is the capital of Peru.",
+      "ttsText": "capital"
+    },
+    {
+      "id": "u01-cognates-la-musica",
+      "front": "la música",
+      "back": "the music",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Me gusta la música.",
+      "exampleBack": "I like music.",
+      "ttsText": "música"
+    },
+    {
+      "id": "u01-cognates-el-numero",
+      "front": "el número",
+      "back": "the number",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "¿Cuál es tu número?",
+      "exampleBack": "What's your number?",
+      "ttsText": "número"
+    },
+    {
+      "id": "u01-cognates-el-telefono",
+      "front": "el teléfono",
+      "back": "the telephone",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "¿Tiene teléfono?",
+      "exampleBack": "Do you have a phone?",
+      "ttsText": "teléfono"
+    },
+    {
+      "id": "u01-cognates-la-computadora",
+      "front": "la computadora",
+      "back": "the computer",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "ttsText": "computadora"
+    },
+    {
+      "id": "u01-cognates-el-internet",
+      "front": "el internet",
+      "back": "the internet",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "¿Hay internet aquí?",
+      "exampleBack": "Is there internet here?",
+      "ttsText": "internet"
+    },
+    {
+      "id": "u01-cognates-la-foto",
+      "front": "la foto",
+      "back": "the photo",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "¿Puedo tomar una foto?",
+      "exampleBack": "Can I take a photo?",
+      "ttsText": "foto"
+    },
+    {
+      "id": "u01-cognates-la-fruta",
+      "front": "la fruta",
+      "back": "the fruit",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "food"
+      ],
+      "exampleFront": "Me gusta la fruta fresca.",
+      "exampleBack": "I like fresh fruit.",
+      "ttsText": "fruta"
+    },
+    {
+      "id": "u01-cognates-el-mapa",
+      "front": "el mapa",
+      "back": "the map",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "transit"
+      ],
+      "exampleFront": "¿Tiene un mapa?",
+      "exampleBack": "Do you have a map?",
+      "ttsText": "mapa"
+    },
+    {
+      "id": "u01-cognates-el-pasaporte",
+      "front": "el pasaporte",
+      "back": "the passport",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "travel"
+      ],
+      "exampleFront": "Necesito mi pasaporte.",
+      "exampleBack": "I need my passport.",
+      "ttsText": "pasaporte"
+    },
+    {
+      "id": "u01-cognates-el-la-turista",
+      "front": "el/la turista",
+      "back": "the tourist",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "travel"
+      ],
+      "exampleFront": "Soy turista.",
+      "exampleBack": "I'm a tourist.",
+      "ttsText": "el/la turista"
+    },
+    {
+      "id": "u01-cognates-el-aeropuerto",
+      "front": "el aeropuerto",
+      "back": "the airport",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "transit"
+      ],
+      "exampleFront": "¿Cómo llego al aeropuerto?",
+      "exampleBack": "How do I get to the airport?",
+      "ttsText": "aeropuerto"
+    },
+    {
+      "id": "u01-cognates-el-accidente",
+      "front": "el accidente",
+      "back": "the accident",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "emergency"
+      ],
+      "exampleFront": "Hubo un accidente.",
+      "exampleBack": "There was an accident.",
+      "ttsText": "accidente"
+    },
+    {
+      "id": "u01-cognates-el-chocolate",
+      "front": "el chocolate",
+      "back": "the chocolate",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate",
+        "food"
+      ],
+      "ttsText": "chocolate"
+    },
+    {
+      "id": "u01-cognates-la-informacion",
+      "front": "la información",
+      "back": "the information",
+      "unit": "u01-cognates",
+      "pos": "noun",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Necesito más información.",
+      "exampleBack": "I need more information.",
+      "ttsText": "información"
+    },
+    {
+      "id": "u01-cognates-normal",
+      "front": "normal",
+      "back": "normal",
+      "unit": "u01-cognates",
+      "pos": "adj",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Es normal aquí.",
+      "exampleBack": "It's normal here.",
+      "ttsText": "normal"
+    },
+    {
+      "id": "u01-cognates-especial",
+      "front": "especial",
+      "back": "special",
+      "unit": "u01-cognates",
+      "pos": "adj",
+      "tags": [
+        "cognate"
+      ],
+      "ttsText": "especial"
+    },
+    {
+      "id": "u01-cognates-natural",
+      "front": "natural",
+      "back": "natural",
+      "unit": "u01-cognates",
+      "pos": "adj",
+      "tags": [
+        "cognate"
+      ],
+      "exampleFront": "Es jugo natural.",
+      "exampleBack": "It's fresh juice.",
+      "ttsText": "natural"
+    },
+    {
+      "id": "u02-greetings-hola",
+      "front": "hola",
+      "back": "hello / hi",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "¡Hola! ¿Cómo estás?",
+      "exampleBack": "Hi! How are you?",
+      "ttsText": "hola"
+    },
+    {
+      "id": "u02-greetings-buenos-dias",
+      "front": "buenos días",
+      "back": "good morning",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Buenos días, señora.",
+      "exampleBack": "Good morning, ma'am.",
+      "ttsText": "buenos días"
+    },
+    {
+      "id": "u02-greetings-buenas-tardes",
+      "front": "buenas tardes",
+      "back": "good afternoon",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "buenas tardes"
+    },
+    {
+      "id": "u02-greetings-buenas-noches",
+      "front": "buenas noches",
+      "back": "good evening / good night",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "buenas noches"
+    },
+    {
+      "id": "u02-greetings-adios",
+      "front": "adiós",
+      "back": "goodbye",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Adiós, hasta pronto.",
+      "exampleBack": "Goodbye, see you soon.",
+      "ttsText": "adiós"
+    },
+    {
+      "id": "u02-greetings-hasta-luego",
+      "front": "hasta luego",
+      "back": "see you later",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "hasta luego"
+    },
+    {
+      "id": "u02-greetings-hasta-manana",
+      "front": "hasta mañana",
+      "back": "see you tomorrow",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "hasta mañana"
+    },
+    {
+      "id": "u02-greetings-gracias",
+      "front": "gracias",
+      "back": "thank you",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Muchas gracias por su ayuda.",
+      "exampleBack": "Thank you very much for your help.",
+      "ttsText": "gracias"
+    },
+    {
+      "id": "u02-greetings-muchas-gracias",
+      "front": "muchas gracias",
+      "back": "thank you very much",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "muchas gracias"
+    },
+    {
+      "id": "u02-greetings-de-nada",
+      "front": "de nada",
+      "back": "you're welcome",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "de nada"
+    },
+    {
+      "id": "u02-greetings-por-favor",
+      "front": "por favor",
+      "back": "please",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Un agua, por favor.",
+      "exampleBack": "A water, please.",
+      "ttsText": "por favor"
+    },
+    {
+      "id": "u02-greetings-perdon",
+      "front": "perdón",
+      "back": "pardon / excuse me",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Perdón, ¿puedo pasar?",
+      "exampleBack": "Excuse me, may I pass?",
+      "ttsText": "perdón"
+    },
+    {
+      "id": "u02-greetings-lo-siento",
+      "front": "lo siento",
+      "back": "I'm sorry",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Lo siento mucho.",
+      "exampleBack": "I'm very sorry.",
+      "ttsText": "lo siento"
+    },
+    {
+      "id": "u02-greetings-disculpe",
+      "front": "disculpe",
+      "back": "excuse me (formal)",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Disculpe, ¿dónde está el baño?",
+      "exampleBack": "Excuse me, where is the bathroom?",
+      "ttsText": "disculpe"
+    },
+    {
+      "id": "u02-greetings-como-estas",
+      "front": "¿cómo estás?",
+      "back": "how are you? (informal)",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "¿cómo estás?"
+    },
+    {
+      "id": "u02-greetings-como-esta-usted",
+      "front": "¿cómo está usted?",
+      "back": "how are you? (formal)",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "¿cómo está usted?"
+    },
+    {
+      "id": "u02-greetings-bien",
+      "front": "bien",
+      "back": "good / well",
+      "unit": "u02-greetings",
+      "pos": "adv",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Estoy bien, gracias.",
+      "exampleBack": "I'm good, thanks.",
+      "ttsText": "bien"
+    },
+    {
+      "id": "u02-greetings-muy-bien",
+      "front": "muy bien",
+      "back": "very good / very well",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "muy bien"
+    },
+    {
+      "id": "u02-greetings-mal",
+      "front": "mal",
+      "back": "bad / badly",
+      "unit": "u02-greetings",
+      "pos": "adv",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Me siento mal.",
+      "exampleBack": "I feel bad.",
+      "ttsText": "mal"
+    },
+    {
+      "id": "u02-greetings-mucho-gusto",
+      "front": "mucho gusto",
+      "back": "nice to meet you",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "mucho gusto"
+    },
+    {
+      "id": "u02-greetings-como-te-llamas",
+      "front": "¿cómo te llamas?",
+      "back": "what's your name? (informal)",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "¿cómo te llamas?"
+    },
+    {
+      "id": "u02-greetings-me-llamo",
+      "front": "me llamo...",
+      "back": "my name is...",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "Me llamo Carlos.",
+      "exampleBack": "My name is Carlos.",
+      "ttsText": "me llamo..."
+    },
+    {
+      "id": "u02-greetings-soy-de",
+      "front": "soy de...",
+      "back": "I'm from...",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings",
+        "people"
+      ],
+      "exampleFront": "Soy de los Estados Unidos.",
+      "exampleBack": "I'm from the United States.",
+      "ttsText": "soy de..."
+    },
+    {
+      "id": "u02-greetings-si",
+      "front": "sí",
+      "back": "yes",
+      "unit": "u02-greetings",
+      "pos": "adv",
+      "ttsText": "sí"
+    },
+    {
+      "id": "u02-greetings-no",
+      "front": "no",
+      "back": "no / not",
+      "unit": "u02-greetings",
+      "pos": "adv",
+      "ttsText": "no"
+    },
+    {
+      "id": "u02-greetings-claro",
+      "front": "claro",
+      "back": "of course / sure",
+      "unit": "u02-greetings",
+      "pos": "adv",
+      "exampleFront": "Claro que sí.",
+      "exampleBack": "Of course.",
+      "ttsText": "claro"
+    },
+    {
+      "id": "u02-greetings-tal-vez",
+      "front": "tal vez",
+      "back": "maybe / perhaps",
+      "unit": "u02-greetings",
+      "pos": "adv",
+      "exampleFront": "Tal vez mañana.",
+      "exampleBack": "Maybe tomorrow.",
+      "ttsText": "tal vez"
+    },
+    {
+      "id": "u02-greetings-salud",
+      "front": "¡salud!",
+      "back": "cheers! / bless you!",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "¡salud!"
+    },
+    {
+      "id": "u02-greetings-con-permiso",
+      "front": "con permiso",
+      "back": "excuse me (passing by)",
+      "unit": "u02-greetings",
+      "pos": "phrase",
+      "tags": [
+        "greetings"
+      ],
+      "ttsText": "con permiso"
+    },
+    {
+      "id": "u02-greetings-bienvenido-a",
+      "front": "bienvenido/a",
+      "back": "welcome",
+      "unit": "u02-greetings",
+      "pos": "adj",
+      "tags": [
+        "greetings"
+      ],
+      "exampleFront": "¡Bienvenido a Colombia!",
+      "exampleBack": "Welcome to Colombia!",
+      "ttsText": "bienvenido/a"
+    },
+    {
+      "id": "u03-survival-no-entiendo",
+      "front": "no entiendo",
+      "back": "I don't understand",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "no entiendo"
+    },
+    {
+      "id": "u03-survival-no-se",
+      "front": "no sé",
+      "back": "I don't know",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "no sé"
+    },
+    {
+      "id": "u03-survival-no-hablo-espanol",
+      "front": "no hablo español",
+      "back": "I don't speak Spanish",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "No hablo español muy bien.",
+      "exampleBack": "I don't speak Spanish very well.",
+      "ttsText": "no hablo español"
+    },
+    {
+      "id": "u03-survival-habla-ingles",
+      "front": "¿habla inglés?",
+      "back": "do you speak English?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "¿habla inglés?"
+    },
+    {
+      "id": "u03-survival-mas-despacio-por-favor",
+      "front": "más despacio, por favor",
+      "back": "slower, please",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "más despacio, por favor"
+    },
+    {
+      "id": "u03-survival-puede-repetir",
+      "front": "¿puede repetir?",
+      "back": "can you repeat that?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "¿puede repetir?"
+    },
+    {
+      "id": "u03-survival-que-significa",
+      "front": "¿qué significa?",
+      "back": "what does it mean?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "¿Qué significa esta palabra?",
+      "exampleBack": "What does this word mean?",
+      "ttsText": "¿qué significa?"
+    },
+    {
+      "id": "u03-survival-como-se-dice",
+      "front": "¿cómo se dice...?",
+      "back": "how do you say...?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "¿Cómo se dice 'water' en español?",
+      "exampleBack": "How do you say 'water' in Spanish?",
+      "ttsText": "¿cómo se dice...?"
+    },
+    {
+      "id": "u03-survival-ayuda",
+      "front": "ayuda",
+      "back": "help",
+      "unit": "u03-survival",
+      "pos": "noun",
+      "tags": [
+        "survival",
+        "emergency"
+      ],
+      "exampleFront": "¡Ayuda!",
+      "exampleBack": "Help!",
+      "ttsText": "ayuda"
+    },
+    {
+      "id": "u03-survival-necesito-ayuda",
+      "front": "necesito ayuda",
+      "back": "I need help",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival",
+        "emergency"
+      ],
+      "ttsText": "necesito ayuda"
+    },
+    {
+      "id": "u03-survival-donde-esta-el-bano",
+      "front": "¿dónde está el baño?",
+      "back": "where is the bathroom?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "¿dónde está el baño?"
+    },
+    {
+      "id": "u03-survival-no-tengo",
+      "front": "no tengo",
+      "back": "I don't have",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "No tengo efectivo.",
+      "exampleBack": "I don't have cash.",
+      "ttsText": "no tengo"
+    },
+    {
+      "id": "u03-survival-tengo-hambre",
+      "front": "tengo hambre",
+      "back": "I'm hungry",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "tengo hambre"
+    },
+    {
+      "id": "u03-survival-tengo-sed",
+      "front": "tengo sed",
+      "back": "I'm thirsty",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "tengo sed"
+    },
+    {
+      "id": "u03-survival-tengo-frio",
+      "front": "tengo frío",
+      "back": "I'm cold",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "tengo frío"
+    },
+    {
+      "id": "u03-survival-tengo-calor",
+      "front": "tengo calor",
+      "back": "I'm hot",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "tengo calor"
+    },
+    {
+      "id": "u03-survival-estoy-cansado-a",
+      "front": "estoy cansado/a",
+      "back": "I'm tired",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "estoy cansado/a"
+    },
+    {
+      "id": "u03-survival-estoy-perdido-a",
+      "front": "estoy perdido/a",
+      "back": "I'm lost",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "Estoy perdido, ¿me puede ayudar?",
+      "exampleBack": "I'm lost, can you help me?",
+      "ttsText": "estoy perdido/a"
+    },
+    {
+      "id": "u03-survival-me-puede-ayudar",
+      "front": "¿me puede ayudar?",
+      "back": "can you help me?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "¿me puede ayudar?"
+    },
+    {
+      "id": "u03-survival-puedo",
+      "front": "¿puedo...?",
+      "back": "can I...? / may I...?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "¿Puedo sentarme aquí?",
+      "exampleBack": "Can I sit here?",
+      "ttsText": "¿puedo...?"
+    },
+    {
+      "id": "u03-survival-un-momento",
+      "front": "un momento",
+      "back": "one moment",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "momento"
+    },
+    {
+      "id": "u03-survival-esta-bien",
+      "front": "está bien",
+      "back": "it's okay / alright",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "está bien"
+    },
+    {
+      "id": "u03-survival-no-importa",
+      "front": "no importa",
+      "back": "it doesn't matter",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "no importa"
+    },
+    {
+      "id": "u03-survival-no-se-preocupe",
+      "front": "no se preocupe",
+      "back": "don't worry",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "no se preocupe"
+    },
+    {
+      "id": "u03-survival-es-urgente",
+      "front": "es urgente",
+      "back": "it's urgent",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival",
+        "emergency"
+      ],
+      "ttsText": "es urgente"
+    },
+    {
+      "id": "u03-survival-es-seguro",
+      "front": "¿es seguro?",
+      "back": "is it safe?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "¿Es seguro caminar de noche?",
+      "exampleBack": "Is it safe to walk at night?",
+      "ttsText": "¿es seguro?"
+    },
+    {
+      "id": "u03-survival-dejeme-en-paz",
+      "front": "déjeme en paz",
+      "back": "leave me alone",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "déjeme en paz"
+    },
+    {
+      "id": "u03-survival-no-quiero",
+      "front": "no quiero",
+      "back": "I don't want (it)",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "exampleFront": "No quiero, gracias.",
+      "exampleBack": "I don't want it, thanks.",
+      "ttsText": "no quiero"
+    },
+    {
+      "id": "u03-survival-basta",
+      "front": "basta",
+      "back": "enough / stop",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival"
+      ],
+      "ttsText": "basta"
+    },
+    {
+      "id": "u03-survival-cuanto-cuesta",
+      "front": "¿cuánto cuesta?",
+      "back": "how much does it cost?",
+      "unit": "u03-survival",
+      "pos": "phrase",
+      "tags": [
+        "survival",
+        "money"
+      ],
+      "exampleFront": "¿Cuánto cuesta esto?",
+      "exampleBack": "How much does this cost?",
+      "ttsText": "¿cuánto cuesta?"
+    },
+    {
+      "id": "u04-pronouns-yo",
+      "front": "yo",
+      "back": "I",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Yo quiero ir.",
+      "exampleBack": "I want to go.",
+      "ttsText": "yo"
+    },
+    {
+      "id": "u04-pronouns-tu",
+      "front": "tú",
+      "back": "you (informal)",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "tú"
+    },
+    {
+      "id": "u04-pronouns-el",
+      "front": "él",
+      "back": "he",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "él"
+    },
+    {
+      "id": "u04-pronouns-ella",
+      "front": "ella",
+      "back": "she",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "ella"
+    },
+    {
+      "id": "u04-pronouns-usted",
+      "front": "usted",
+      "back": "you (formal)",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "¿Usted es de aquí?",
+      "exampleBack": "Are you from here?",
+      "ttsText": "usted"
+    },
+    {
+      "id": "u04-pronouns-nosotros-as",
+      "front": "nosotros/as",
+      "back": "we",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "nosotros/as"
+    },
+    {
+      "id": "u04-pronouns-ustedes",
+      "front": "ustedes",
+      "back": "you all (Latin America)",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "ustedes"
+    },
+    {
+      "id": "u04-pronouns-ellos-as",
+      "front": "ellos/as",
+      "back": "they",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "ellos/as"
+    },
+    {
+      "id": "u04-pronouns-mi-mis",
+      "front": "mi / mis",
+      "back": "my",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Mi nombre es...",
+      "exampleBack": "My name is...",
+      "ttsText": "mi / mis"
+    },
+    {
+      "id": "u04-pronouns-tu-tus",
+      "front": "tu / tus",
+      "back": "your (informal)",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "tu / tus"
+    },
+    {
+      "id": "u04-pronouns-su-sus",
+      "front": "su / sus",
+      "back": "his / her / your (formal) / their",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Su casa es bonita.",
+      "exampleBack": "Their house is pretty.",
+      "ttsText": "su / sus"
+    },
+    {
+      "id": "u04-pronouns-nuestro-a",
+      "front": "nuestro/a",
+      "back": "our",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "ttsText": "nuestro/a"
+    },
+    {
+      "id": "u04-pronouns-este-esta",
+      "front": "este / esta",
+      "back": "this",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Este es mi hotel.",
+      "exampleBack": "This is my hotel.",
+      "ttsText": "este / esta"
+    },
+    {
+      "id": "u04-pronouns-ese-esa",
+      "front": "ese / esa",
+      "back": "that",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Esa calle es peligrosa.",
+      "exampleBack": "That street is dangerous.",
+      "ttsText": "ese / esa"
+    },
+    {
+      "id": "u04-pronouns-esto",
+      "front": "esto",
+      "back": "this (thing)",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "¿Qué es esto?",
+      "exampleBack": "What is this?",
+      "ttsText": "esto"
+    },
+    {
+      "id": "u04-pronouns-eso",
+      "front": "eso",
+      "back": "that (thing)",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Eso es correcto.",
+      "exampleBack": "That's correct.",
+      "ttsText": "eso"
+    },
+    {
+      "id": "u04-pronouns-el-la",
+      "front": "el / la",
+      "back": "the (masc. / fem.)",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "article"
+      ],
+      "ttsText": "/ la"
+    },
+    {
+      "id": "u04-pronouns-los-las",
+      "front": "los / las",
+      "back": "the (plural)",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "article"
+      ],
+      "ttsText": "/ las"
+    },
+    {
+      "id": "u04-pronouns-un-una",
+      "front": "un / una",
+      "back": "a / an",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "article"
+      ],
+      "ttsText": "/ una"
+    },
+    {
+      "id": "u04-pronouns-algo",
+      "front": "algo",
+      "back": "something",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "¿Hay algo más?",
+      "exampleBack": "Is there anything else?",
+      "ttsText": "algo"
+    },
+    {
+      "id": "u04-pronouns-nada",
+      "front": "nada",
+      "back": "nothing",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "No necesito nada.",
+      "exampleBack": "I don't need anything.",
+      "ttsText": "nada"
+    },
+    {
+      "id": "u04-pronouns-todo",
+      "front": "todo",
+      "back": "everything / all",
+      "unit": "u04-pronouns",
+      "pos": "pron",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Todo está bien.",
+      "exampleBack": "Everything is fine.",
+      "ttsText": "todo"
+    },
+    {
+      "id": "u04-pronouns-otro-a",
+      "front": "otro/a",
+      "back": "another / other",
+      "unit": "u04-pronouns",
+      "pos": "det",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "¿Tiene otro color?",
+      "exampleBack": "Do you have another color?",
+      "ttsText": "otro/a"
+    },
+    {
+      "id": "u04-pronouns-mismo-a",
+      "front": "mismo/a",
+      "back": "same",
+      "unit": "u04-pronouns",
+      "pos": "adj",
+      "tags": [
+        "pronoun"
+      ],
+      "exampleFront": "Es lo mismo.",
+      "exampleBack": "It's the same.",
+      "ttsText": "mismo/a"
+    },
+    {
+      "id": "u05-numbers-uno",
+      "front": "uno",
+      "back": "one / 1",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "uno"
+    },
+    {
+      "id": "u05-numbers-dos",
+      "front": "dos",
+      "back": "two / 2",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "dos"
+    },
+    {
+      "id": "u05-numbers-tres",
+      "front": "tres",
+      "back": "three / 3",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "tres"
+    },
+    {
+      "id": "u05-numbers-cuatro",
+      "front": "cuatro",
+      "back": "four / 4",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "cuatro"
+    },
+    {
+      "id": "u05-numbers-cinco",
+      "front": "cinco",
+      "back": "five / 5",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "cinco"
+    },
+    {
+      "id": "u05-numbers-seis",
+      "front": "seis",
+      "back": "six / 6",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "seis"
+    },
+    {
+      "id": "u05-numbers-siete",
+      "front": "siete",
+      "back": "seven / 7",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "siete"
+    },
+    {
+      "id": "u05-numbers-ocho",
+      "front": "ocho",
+      "back": "eight / 8",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "ocho"
+    },
+    {
+      "id": "u05-numbers-nueve",
+      "front": "nueve",
+      "back": "nine / 9",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "nueve"
+    },
+    {
+      "id": "u05-numbers-diez",
+      "front": "diez",
+      "back": "ten / 10",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "diez"
+    },
+    {
+      "id": "u05-numbers-once",
+      "front": "once",
+      "back": "eleven / 11",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "once"
+    },
+    {
+      "id": "u05-numbers-doce",
+      "front": "doce",
+      "back": "twelve / 12",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "doce"
+    },
+    {
+      "id": "u05-numbers-quince",
+      "front": "quince",
+      "back": "fifteen / 15",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "quince"
+    },
+    {
+      "id": "u05-numbers-veinte",
+      "front": "veinte",
+      "back": "twenty / 20",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "veinte"
+    },
+    {
+      "id": "u05-numbers-treinta",
+      "front": "treinta",
+      "back": "thirty / 30",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "treinta"
+    },
+    {
+      "id": "u05-numbers-cuarenta",
+      "front": "cuarenta",
+      "back": "forty / 40",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "cuarenta"
+    },
+    {
+      "id": "u05-numbers-cincuenta",
+      "front": "cincuenta",
+      "back": "fifty / 50",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "cincuenta"
+    },
+    {
+      "id": "u05-numbers-cien",
+      "front": "cien",
+      "back": "one hundred / 100",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "exampleFront": "Cuesta cien pesos.",
+      "exampleBack": "It costs one hundred pesos.",
+      "ttsText": "cien"
+    },
+    {
+      "id": "u05-numbers-mil",
+      "front": "mil",
+      "back": "one thousand / 1000",
+      "unit": "u05-numbers",
+      "pos": "num",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "mil"
+    },
+    {
+      "id": "u05-numbers-primero-a",
+      "front": "primero/a",
+      "back": "first",
+      "unit": "u05-numbers",
+      "pos": "adj",
+      "tags": [
+        "numbers"
+      ],
+      "exampleFront": "La primera calle a la derecha.",
+      "exampleBack": "The first street on the right.",
+      "ttsText": "primero/a"
+    },
+    {
+      "id": "u05-numbers-segundo-a",
+      "front": "segundo/a",
+      "back": "second",
+      "unit": "u05-numbers",
+      "pos": "adj",
+      "tags": [
+        "numbers"
+      ],
+      "ttsText": "segundo/a"
+    },
+    {
+      "id": "u05-numbers-ultimo-a",
+      "front": "último/a",
+      "back": "last",
+      "unit": "u05-numbers",
+      "pos": "adj",
+      "tags": [
+        "numbers"
+      ],
+      "exampleFront": "El último autobús.",
+      "exampleBack": "The last bus.",
+      "ttsText": "último/a"
+    },
+    {
+      "id": "u05-numbers-hoy",
+      "front": "hoy",
+      "back": "today",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "¿Qué día es hoy?",
+      "exampleBack": "What day is today?",
+      "ttsText": "hoy"
+    },
+    {
+      "id": "u05-numbers-manana",
+      "front": "mañana",
+      "back": "tomorrow / morning",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Hasta mañana.",
+      "exampleBack": "See you tomorrow.",
+      "ttsText": "mañana"
+    },
+    {
+      "id": "u05-numbers-ayer",
+      "front": "ayer",
+      "back": "yesterday",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "ttsText": "ayer"
+    },
+    {
+      "id": "u05-numbers-ahora",
+      "front": "ahora",
+      "back": "now",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Ahora no puedo.",
+      "exampleBack": "I can't right now.",
+      "ttsText": "ahora"
+    },
+    {
+      "id": "u05-numbers-despues",
+      "front": "después",
+      "back": "after / later",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Después de comer.",
+      "exampleBack": "After eating.",
+      "ttsText": "después"
+    },
+    {
+      "id": "u05-numbers-antes",
+      "front": "antes",
+      "back": "before",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Antes de las tres.",
+      "exampleBack": "Before three.",
+      "ttsText": "antes"
+    },
+    {
+      "id": "u05-numbers-temprano",
+      "front": "temprano",
+      "back": "early",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "ttsText": "temprano"
+    },
+    {
+      "id": "u05-numbers-tarde",
+      "front": "tarde",
+      "back": "late / afternoon",
+      "unit": "u05-numbers",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Es tarde.",
+      "exampleBack": "It's late.",
+      "ttsText": "tarde"
+    },
+    {
+      "id": "u05-numbers-la-hora",
+      "front": "la hora",
+      "back": "the hour / time",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "¿Qué hora es?",
+      "exampleBack": "What time is it?",
+      "ttsText": "hora"
+    },
+    {
+      "id": "u05-numbers-el-minuto",
+      "front": "el minuto",
+      "back": "the minute",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "ttsText": "minuto"
+    },
+    {
+      "id": "u05-numbers-el-dia",
+      "front": "el día",
+      "back": "the day",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Todo el día.",
+      "exampleBack": "All day.",
+      "ttsText": "día"
+    },
+    {
+      "id": "u05-numbers-la-semana",
+      "front": "la semana",
+      "back": "the week",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "La próxima semana.",
+      "exampleBack": "Next week.",
+      "ttsText": "semana"
+    },
+    {
+      "id": "u05-numbers-el-mes",
+      "front": "el mes",
+      "back": "the month",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "ttsText": "mes"
+    },
+    {
+      "id": "u05-numbers-el-ano",
+      "front": "el año",
+      "back": "the year",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time"
+      ],
+      "ttsText": "año"
+    },
+    {
+      "id": "u05-numbers-lunes",
+      "front": "lunes",
+      "back": "Monday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "lunes"
+    },
+    {
+      "id": "u05-numbers-martes",
+      "front": "martes",
+      "back": "Tuesday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "martes"
+    },
+    {
+      "id": "u05-numbers-miercoles",
+      "front": "miércoles",
+      "back": "Wednesday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "miércoles"
+    },
+    {
+      "id": "u05-numbers-jueves",
+      "front": "jueves",
+      "back": "Thursday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "jueves"
+    },
+    {
+      "id": "u05-numbers-viernes",
+      "front": "viernes",
+      "back": "Friday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "viernes"
+    },
+    {
+      "id": "u05-numbers-sabado",
+      "front": "sábado",
+      "back": "Saturday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "sábado"
+    },
+    {
+      "id": "u05-numbers-domingo",
+      "front": "domingo",
+      "back": "Sunday",
+      "unit": "u05-numbers",
+      "pos": "noun",
+      "tags": [
+        "time",
+        "days"
+      ],
+      "ttsText": "domingo"
+    },
+    {
+      "id": "u06-verbs-ser",
+      "front": "ser",
+      "back": "to be (identity/nature)",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Soy estudiante.",
+      "exampleBack": "I am a student.",
+      "ttsText": "ser"
+    },
+    {
+      "id": "u06-verbs-estar",
+      "front": "estar",
+      "back": "to be (state/location)",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Estoy aquí.",
+      "exampleBack": "I am here.",
+      "ttsText": "estar"
+    },
+    {
+      "id": "u06-verbs-tener",
+      "front": "tener",
+      "back": "to have",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Tengo dos hermanos.",
+      "exampleBack": "I have two brothers.",
+      "ttsText": "tener"
+    },
+    {
+      "id": "u06-verbs-hacer",
+      "front": "hacer",
+      "back": "to do / to make",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Qué haces?",
+      "exampleBack": "What are you doing?",
+      "ttsText": "hacer"
+    },
+    {
+      "id": "u06-verbs-ir",
+      "front": "ir",
+      "back": "to go",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Voy al centro.",
+      "exampleBack": "I'm going downtown.",
+      "ttsText": "ir"
+    },
+    {
+      "id": "u06-verbs-decir",
+      "front": "decir",
+      "back": "to say / to tell",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Cómo se dice?",
+      "exampleBack": "How do you say it?",
+      "ttsText": "decir"
+    },
+    {
+      "id": "u06-verbs-poder",
+      "front": "poder",
+      "back": "to be able to / can",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Puedo entrar?",
+      "exampleBack": "Can I come in?",
+      "ttsText": "poder"
+    },
+    {
+      "id": "u06-verbs-saber",
+      "front": "saber",
+      "back": "to know (facts)",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "No sé dónde está.",
+      "exampleBack": "I don't know where it is.",
+      "ttsText": "saber"
+    },
+    {
+      "id": "u06-verbs-ver",
+      "front": "ver",
+      "back": "to see",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Puedes ver?",
+      "exampleBack": "Can you see?",
+      "ttsText": "ver"
+    },
+    {
+      "id": "u06-verbs-dar",
+      "front": "dar",
+      "back": "to give",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Me da la cuenta?",
+      "exampleBack": "Can you give me the bill?",
+      "ttsText": "dar"
+    },
+    {
+      "id": "u06-verbs-querer",
+      "front": "querer",
+      "back": "to want / to love",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Quiero un café.",
+      "exampleBack": "I want a coffee.",
+      "ttsText": "querer"
+    },
+    {
+      "id": "u06-verbs-llegar",
+      "front": "llegar",
+      "back": "to arrive",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿A qué hora llega?",
+      "exampleBack": "What time does it arrive?",
+      "ttsText": "llegar"
+    },
+    {
+      "id": "u06-verbs-pasar",
+      "front": "pasar",
+      "back": "to pass / to happen",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Qué pasó?",
+      "exampleBack": "What happened?",
+      "ttsText": "pasar"
+    },
+    {
+      "id": "u06-verbs-deber",
+      "front": "deber",
+      "back": "to must / to owe",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Debo irme.",
+      "exampleBack": "I must go.",
+      "ttsText": "deber"
+    },
+    {
+      "id": "u06-verbs-poner",
+      "front": "poner",
+      "back": "to put / to place",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Dónde lo pongo?",
+      "exampleBack": "Where do I put it?",
+      "ttsText": "poner"
+    },
+    {
+      "id": "u06-verbs-quedar",
+      "front": "quedar",
+      "back": "to stay / to remain / to be located",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Dónde queda?",
+      "exampleBack": "Where is it located?",
+      "ttsText": "quedar"
+    },
+    {
+      "id": "u06-verbs-creer",
+      "front": "creer",
+      "back": "to believe / to think",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Creo que sí.",
+      "exampleBack": "I think so.",
+      "ttsText": "creer"
+    },
+    {
+      "id": "u06-verbs-hablar",
+      "front": "hablar",
+      "back": "to speak / to talk",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Habla inglés?",
+      "exampleBack": "Do you speak English?",
+      "ttsText": "hablar"
+    },
+    {
+      "id": "u06-verbs-llevar",
+      "front": "llevar",
+      "back": "to carry / to take / to wear",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Llevo una mochila.",
+      "exampleBack": "I'm carrying a backpack.",
+      "ttsText": "llevar"
+    },
+    {
+      "id": "u06-verbs-dejar",
+      "front": "dejar",
+      "back": "to leave / to let",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Déjame pensar.",
+      "exampleBack": "Let me think.",
+      "ttsText": "dejar"
+    },
+    {
+      "id": "u06-verbs-seguir",
+      "front": "seguir",
+      "back": "to follow / to continue",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Siga derecho.",
+      "exampleBack": "Continue straight.",
+      "ttsText": "seguir"
+    },
+    {
+      "id": "u06-verbs-encontrar",
+      "front": "encontrar",
+      "back": "to find",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "No puedo encontrarlo.",
+      "exampleBack": "I can't find it.",
+      "ttsText": "encontrar"
+    },
+    {
+      "id": "u06-verbs-llamar",
+      "front": "llamar",
+      "back": "to call",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Puedo llamar un taxi?",
+      "exampleBack": "Can I call a taxi?",
+      "ttsText": "llamar"
+    },
+    {
+      "id": "u06-verbs-venir",
+      "front": "venir",
+      "back": "to come",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿De dónde vienes?",
+      "exampleBack": "Where do you come from?",
+      "ttsText": "venir"
+    },
+    {
+      "id": "u06-verbs-pensar",
+      "front": "pensar",
+      "back": "to think",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Déjame pensar.",
+      "exampleBack": "Let me think.",
+      "ttsText": "pensar"
+    },
+    {
+      "id": "u06-verbs-salir",
+      "front": "salir",
+      "back": "to leave / to go out",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Salgo a las ocho.",
+      "exampleBack": "I leave at eight.",
+      "ttsText": "salir"
+    },
+    {
+      "id": "u06-verbs-volver",
+      "front": "volver",
+      "back": "to return / to come back",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Vuelvo mañana.",
+      "exampleBack": "I'll be back tomorrow.",
+      "ttsText": "volver"
+    },
+    {
+      "id": "u06-verbs-tomar",
+      "front": "tomar",
+      "back": "to take / to drink",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Voy a tomar un café.",
+      "exampleBack": "I'm going to have a coffee.",
+      "ttsText": "tomar"
+    },
+    {
+      "id": "u06-verbs-conocer",
+      "front": "conocer",
+      "back": "to know (people/places)",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Conoces Buenos Aires?",
+      "exampleBack": "Do you know Buenos Aires?",
+      "ttsText": "conocer"
+    },
+    {
+      "id": "u06-verbs-vivir",
+      "front": "vivir",
+      "back": "to live",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Dónde vives?",
+      "exampleBack": "Where do you live?",
+      "ttsText": "vivir"
+    },
+    {
+      "id": "u06-verbs-sentir",
+      "front": "sentir",
+      "back": "to feel",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Me siento bien.",
+      "exampleBack": "I feel good.",
+      "ttsText": "sentir"
+    },
+    {
+      "id": "u06-verbs-mirar",
+      "front": "mirar",
+      "back": "to look / to watch",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Mira eso.",
+      "exampleBack": "Look at that.",
+      "ttsText": "mirar"
+    },
+    {
+      "id": "u06-verbs-esperar",
+      "front": "esperar",
+      "back": "to wait / to hope",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Espera un momento.",
+      "exampleBack": "Wait a moment.",
+      "ttsText": "esperar"
+    },
+    {
+      "id": "u06-verbs-buscar",
+      "front": "buscar",
+      "back": "to look for / to search",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Busco un hotel.",
+      "exampleBack": "I'm looking for a hotel.",
+      "ttsText": "buscar"
+    },
+    {
+      "id": "u06-verbs-entrar",
+      "front": "entrar",
+      "back": "to enter",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Puedo entrar?",
+      "exampleBack": "May I come in?",
+      "ttsText": "entrar"
+    },
+    {
+      "id": "u06-verbs-trabajar",
+      "front": "trabajar",
+      "back": "to work",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Trabajo aquí.",
+      "exampleBack": "I work here.",
+      "ttsText": "trabajar"
+    },
+    {
+      "id": "u06-verbs-escribir",
+      "front": "escribir",
+      "back": "to write",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Puede escribirlo?",
+      "exampleBack": "Can you write it down?",
+      "ttsText": "escribir"
+    },
+    {
+      "id": "u06-verbs-perder",
+      "front": "perder",
+      "back": "to lose / to miss",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Perdí mi billetera.",
+      "exampleBack": "I lost my wallet.",
+      "ttsText": "perder"
+    },
+    {
+      "id": "u06-verbs-entender",
+      "front": "entender",
+      "back": "to understand",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Entiende?",
+      "exampleBack": "Do you understand?",
+      "ttsText": "entender"
+    },
+    {
+      "id": "u06-verbs-pedir",
+      "front": "pedir",
+      "back": "to ask for / to order",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Quiero pedir la cuenta.",
+      "exampleBack": "I want to ask for the bill.",
+      "ttsText": "pedir"
+    },
+    {
+      "id": "u06-verbs-recibir",
+      "front": "recibir",
+      "back": "to receive",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "ttsText": "recibir"
+    },
+    {
+      "id": "u06-verbs-recordar",
+      "front": "recordar",
+      "back": "to remember",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "No recuerdo.",
+      "exampleBack": "I don't remember.",
+      "ttsText": "recordar"
+    },
+    {
+      "id": "u06-verbs-terminar",
+      "front": "terminar",
+      "back": "to finish",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Ya terminé.",
+      "exampleBack": "I already finished.",
+      "ttsText": "terminar"
+    },
+    {
+      "id": "u06-verbs-comenzar",
+      "front": "comenzar",
+      "back": "to begin",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿A qué hora comienza?",
+      "exampleBack": "What time does it start?",
+      "ttsText": "comenzar"
+    },
+    {
+      "id": "u06-verbs-abrir",
+      "front": "abrir",
+      "back": "to open",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿A qué hora abren?",
+      "exampleBack": "What time do they open?",
+      "ttsText": "abrir"
+    },
+    {
+      "id": "u06-verbs-cerrar",
+      "front": "cerrar",
+      "back": "to close",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿A qué hora cierran?",
+      "exampleBack": "What time do they close?",
+      "ttsText": "cerrar"
+    },
+    {
+      "id": "u06-verbs-comer",
+      "front": "comer",
+      "back": "to eat",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Dónde podemos comer?",
+      "exampleBack": "Where can we eat?",
+      "ttsText": "comer"
+    },
+    {
+      "id": "u06-verbs-beber",
+      "front": "beber",
+      "back": "to drink",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Qué quieres beber?",
+      "exampleBack": "What do you want to drink?",
+      "ttsText": "beber"
+    },
+    {
+      "id": "u06-verbs-dormir",
+      "front": "dormir",
+      "back": "to sleep",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "Necesito dormir.",
+      "exampleBack": "I need to sleep.",
+      "ttsText": "dormir"
+    },
+    {
+      "id": "u06-verbs-comprar",
+      "front": "comprar",
+      "back": "to buy",
+      "unit": "u06-verbs",
+      "pos": "verb",
+      "tags": [
+        "core-verb"
+      ],
+      "exampleFront": "¿Dónde puedo comprar eso?",
+      "exampleBack": "Where can I buy that?",
+      "ttsText": "comprar"
+    },
+    {
+      "id": "u07-questions-que",
+      "front": "¿qué?",
+      "back": "what?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "ttsText": "¿qué?"
+    },
+    {
+      "id": "u07-questions-quien",
+      "front": "¿quién?",
+      "back": "who?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "exampleFront": "¿Quién es?",
+      "exampleBack": "Who is it?",
+      "ttsText": "¿quién?"
+    },
+    {
+      "id": "u07-questions-donde",
+      "front": "¿dónde?",
+      "back": "where?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "ttsText": "¿dónde?"
+    },
+    {
+      "id": "u07-questions-cuando",
+      "front": "¿cuándo?",
+      "back": "when?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "ttsText": "¿cuándo?"
+    },
+    {
+      "id": "u07-questions-como",
+      "front": "¿cómo?",
+      "back": "how?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "ttsText": "¿cómo?"
+    },
+    {
+      "id": "u07-questions-por-que",
+      "front": "¿por qué?",
+      "back": "why?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "ttsText": "¿por qué?"
+    },
+    {
+      "id": "u07-questions-porque",
+      "front": "porque",
+      "back": "because",
+      "unit": "u07-questions",
+      "pos": "conj",
+      "tags": [
+        "question"
+      ],
+      "exampleFront": "Porque tengo hambre.",
+      "exampleBack": "Because I'm hungry.",
+      "ttsText": "porque"
+    },
+    {
+      "id": "u07-questions-cual",
+      "front": "¿cuál?",
+      "back": "which? / which one?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "exampleFront": "¿Cuál prefieres?",
+      "exampleBack": "Which do you prefer?",
+      "ttsText": "¿cuál?"
+    },
+    {
+      "id": "u07-questions-cuanto-a",
+      "front": "¿cuánto/a?",
+      "back": "how much?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "ttsText": "¿cuánto/a?"
+    },
+    {
+      "id": "u07-questions-cuantos-as",
+      "front": "¿cuántos/as?",
+      "back": "how many?",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "question"
+      ],
+      "exampleFront": "¿Cuántas personas?",
+      "exampleBack": "How many people?",
+      "ttsText": "¿cuántos/as?"
+    },
+    {
+      "id": "u07-questions-tambien",
+      "front": "también",
+      "back": "also / too",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "frequency"
+      ],
+      "exampleFront": "Yo también.",
+      "exampleBack": "Me too.",
+      "ttsText": "también"
+    },
+    {
+      "id": "u07-questions-muy",
+      "front": "muy",
+      "back": "very",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "frequency"
+      ],
+      "exampleFront": "Es muy caro.",
+      "exampleBack": "It's very expensive.",
+      "ttsText": "muy"
+    },
+    {
+      "id": "u07-questions-mucho-a",
+      "front": "mucho/a",
+      "back": "a lot / much",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "frequency"
+      ],
+      "ttsText": "mucho/a"
+    },
+    {
+      "id": "u07-questions-poco",
+      "front": "poco",
+      "back": "a little / few",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "frequency"
+      ],
+      "exampleFront": "Un poco de agua.",
+      "exampleBack": "A little water.",
+      "ttsText": "poco"
+    },
+    {
+      "id": "u07-questions-siempre",
+      "front": "siempre",
+      "back": "always",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "frequency"
+      ],
+      "ttsText": "siempre"
+    },
+    {
+      "id": "u07-questions-nunca",
+      "front": "nunca",
+      "back": "never",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "frequency"
+      ],
+      "ttsText": "nunca"
+    },
+    {
+      "id": "u07-questions-aqui",
+      "front": "aquí",
+      "back": "here",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "place"
+      ],
+      "exampleFront": "Aquí está.",
+      "exampleBack": "Here it is.",
+      "ttsText": "aquí"
+    },
+    {
+      "id": "u07-questions-alli-ahi",
+      "front": "allí / ahí",
+      "back": "there",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "place"
+      ],
+      "exampleFront": "Está allí.",
+      "exampleBack": "It's over there.",
+      "ttsText": "allí / ahí"
+    },
+    {
+      "id": "u07-questions-ya",
+      "front": "ya",
+      "back": "already / now",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Ya llegó.",
+      "exampleBack": "It already arrived.",
+      "ttsText": "ya"
+    },
+    {
+      "id": "u07-questions-todavia",
+      "front": "todavía",
+      "back": "still / yet",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "time"
+      ],
+      "exampleFront": "Todavía no.",
+      "exampleBack": "Not yet.",
+      "ttsText": "todavía"
+    },
+    {
+      "id": "u07-questions-mas",
+      "front": "más",
+      "back": "more / most",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "comparison"
+      ],
+      "exampleFront": "Más grande.",
+      "exampleBack": "Bigger.",
+      "ttsText": "más"
+    },
+    {
+      "id": "u07-questions-menos",
+      "front": "menos",
+      "back": "less / fewer",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "comparison"
+      ],
+      "exampleFront": "Menos caro.",
+      "exampleBack": "Less expensive.",
+      "ttsText": "menos"
+    },
+    {
+      "id": "u07-questions-mejor",
+      "front": "mejor",
+      "back": "better / best",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "comparison"
+      ],
+      "exampleFront": "El mejor restaurante.",
+      "exampleBack": "The best restaurant.",
+      "ttsText": "mejor"
+    },
+    {
+      "id": "u07-questions-peor",
+      "front": "peor",
+      "back": "worse / worst",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "tags": [
+        "comparison"
+      ],
+      "ttsText": "peor"
+    },
+    {
+      "id": "u07-questions-solo",
+      "front": "solo",
+      "back": "only / just / alone",
+      "unit": "u07-questions",
+      "pos": "adv",
+      "exampleFront": "Solo uno.",
+      "exampleBack": "Just one.",
+      "ttsText": "solo"
+    },
+    {
+      "id": "u08-transit-la-calle",
+      "front": "la calle",
+      "back": "the street",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Cuál es esta calle?",
+      "exampleBack": "What street is this?",
+      "ttsText": "calle"
+    },
+    {
+      "id": "u08-transit-la-avenida",
+      "front": "la avenida",
+      "back": "the avenue",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "avenida"
+    },
+    {
+      "id": "u08-transit-la-esquina",
+      "front": "la esquina",
+      "back": "the corner",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "En la esquina.",
+      "exampleBack": "On the corner.",
+      "ttsText": "esquina"
+    },
+    {
+      "id": "u08-transit-el-semaforo",
+      "front": "el semáforo",
+      "back": "the traffic light",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "En el semáforo, gire a la derecha.",
+      "exampleBack": "At the traffic light, turn right.",
+      "ttsText": "semáforo"
+    },
+    {
+      "id": "u08-transit-a-la-izquierda",
+      "front": "a la izquierda",
+      "back": "to the left",
+      "unit": "u08-transit",
+      "pos": "phrase",
+      "tags": [
+        "transit",
+        "directions"
+      ],
+      "ttsText": "a la izquierda"
+    },
+    {
+      "id": "u08-transit-a-la-derecha",
+      "front": "a la derecha",
+      "back": "to the right",
+      "unit": "u08-transit",
+      "pos": "phrase",
+      "tags": [
+        "transit",
+        "directions"
+      ],
+      "ttsText": "a la derecha"
+    },
+    {
+      "id": "u08-transit-derecho-recto",
+      "front": "derecho / recto",
+      "back": "straight ahead",
+      "unit": "u08-transit",
+      "pos": "adv",
+      "tags": [
+        "transit",
+        "directions"
+      ],
+      "exampleFront": "Siga derecho dos cuadras.",
+      "exampleBack": "Go straight two blocks.",
+      "ttsText": "derecho / recto"
+    },
+    {
+      "id": "u08-transit-cerca",
+      "front": "cerca",
+      "back": "near / close",
+      "unit": "u08-transit",
+      "pos": "adv",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Está cerca?",
+      "exampleBack": "Is it close?",
+      "ttsText": "cerca"
+    },
+    {
+      "id": "u08-transit-lejos",
+      "front": "lejos",
+      "back": "far",
+      "unit": "u08-transit",
+      "pos": "adv",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "Está muy lejos.",
+      "exampleBack": "It's very far.",
+      "ttsText": "lejos"
+    },
+    {
+      "id": "u08-transit-la-cuadra",
+      "front": "la cuadra",
+      "back": "the block (city)",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "A dos cuadras de aquí.",
+      "exampleBack": "Two blocks from here.",
+      "ttsText": "cuadra"
+    },
+    {
+      "id": "u08-transit-norte",
+      "front": "norte",
+      "back": "north",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit",
+        "directions"
+      ],
+      "ttsText": "norte"
+    },
+    {
+      "id": "u08-transit-sur",
+      "front": "sur",
+      "back": "south",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit",
+        "directions"
+      ],
+      "ttsText": "sur"
+    },
+    {
+      "id": "u08-transit-donde-esta",
+      "front": "¿dónde está...?",
+      "back": "where is...?",
+      "unit": "u08-transit",
+      "pos": "phrase",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "¿dónde está...?"
+    },
+    {
+      "id": "u08-transit-como-llego-a",
+      "front": "¿cómo llego a...?",
+      "back": "how do I get to...?",
+      "unit": "u08-transit",
+      "pos": "phrase",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Cómo llego al centro?",
+      "exampleBack": "How do I get downtown?",
+      "ttsText": "¿cómo llego a...?"
+    },
+    {
+      "id": "u08-transit-el-autobus",
+      "front": "el autobús",
+      "back": "the bus",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Cuál autobús va al centro?",
+      "exampleBack": "Which bus goes downtown?",
+      "ttsText": "autobús"
+    },
+    {
+      "id": "u08-transit-el-tren",
+      "front": "el tren",
+      "back": "the train",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "tren"
+    },
+    {
+      "id": "u08-transit-el-metro",
+      "front": "el metro",
+      "back": "the metro / subway",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Dónde está la estación de metro?",
+      "exampleBack": "Where is the metro station?",
+      "ttsText": "metro"
+    },
+    {
+      "id": "u08-transit-el-colectivo",
+      "front": "el colectivo",
+      "back": "the minibus (Argentina)",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "colectivo"
+    },
+    {
+      "id": "u08-transit-la-bicicleta",
+      "front": "la bicicleta",
+      "back": "the bicycle",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "bicicleta"
+    },
+    {
+      "id": "u08-transit-el-carro-coche",
+      "front": "el carro / coche",
+      "back": "the car",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "carro / coche"
+    },
+    {
+      "id": "u08-transit-la-parada",
+      "front": "la parada",
+      "back": "the stop (bus)",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Dónde está la parada?",
+      "exampleBack": "Where is the bus stop?",
+      "ttsText": "parada"
+    },
+    {
+      "id": "u08-transit-la-estacion",
+      "front": "la estación",
+      "back": "the station",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "estación"
+    },
+    {
+      "id": "u08-transit-el-boleto",
+      "front": "el boleto",
+      "back": "the ticket",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "Un boleto, por favor.",
+      "exampleBack": "One ticket, please.",
+      "ttsText": "boleto"
+    },
+    {
+      "id": "u08-transit-ida",
+      "front": "ida",
+      "back": "one-way",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "ida"
+    },
+    {
+      "id": "u08-transit-ida-y-vuelta",
+      "front": "ida y vuelta",
+      "back": "round trip",
+      "unit": "u08-transit",
+      "pos": "phrase",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "Un boleto de ida y vuelta.",
+      "exampleBack": "A round-trip ticket.",
+      "ttsText": "ida y vuelta"
+    },
+    {
+      "id": "u08-transit-la-salida",
+      "front": "la salida",
+      "back": "the exit / departure",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Dónde está la salida?",
+      "exampleBack": "Where is the exit?",
+      "ttsText": "salida"
+    },
+    {
+      "id": "u08-transit-la-llegada",
+      "front": "la llegada",
+      "back": "the arrival",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "llegada"
+    },
+    {
+      "id": "u08-transit-el-vuelo",
+      "front": "el vuelo",
+      "back": "the flight",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "Mi vuelo sale a las tres.",
+      "exampleBack": "My flight leaves at three.",
+      "ttsText": "vuelo"
+    },
+    {
+      "id": "u08-transit-el-equipaje",
+      "front": "el equipaje",
+      "back": "the luggage",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit",
+        "lodging"
+      ],
+      "ttsText": "equipaje"
+    },
+    {
+      "id": "u08-transit-la-maleta",
+      "front": "la maleta",
+      "back": "the suitcase",
+      "unit": "u08-transit",
+      "pos": "noun",
+      "tags": [
+        "transit",
+        "lodging"
+      ],
+      "ttsText": "maleta"
+    },
+    {
+      "id": "u08-transit-caminar",
+      "front": "caminar",
+      "back": "to walk",
+      "unit": "u08-transit",
+      "pos": "verb",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Se puede caminar?",
+      "exampleBack": "Can you walk there?",
+      "ttsText": "caminar"
+    },
+    {
+      "id": "u08-transit-subir",
+      "front": "subir",
+      "back": "to get on / go up",
+      "unit": "u08-transit",
+      "pos": "verb",
+      "tags": [
+        "transit"
+      ],
+      "ttsText": "subir"
+    },
+    {
+      "id": "u08-transit-bajar",
+      "front": "bajar",
+      "back": "to get off / go down",
+      "unit": "u08-transit",
+      "pos": "verb",
+      "tags": [
+        "transit"
+      ],
+      "exampleFront": "¿Dónde bajo?",
+      "exampleBack": "Where do I get off?",
+      "ttsText": "bajar"
+    },
+    {
+      "id": "u09-food-la-comida",
+      "front": "la comida",
+      "back": "the food / meal",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "comida"
+    },
+    {
+      "id": "u09-food-el-desayuno",
+      "front": "el desayuno",
+      "back": "breakfast",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "exampleFront": "¿A qué hora es el desayuno?",
+      "exampleBack": "What time is breakfast?",
+      "ttsText": "desayuno"
+    },
+    {
+      "id": "u09-food-el-almuerzo",
+      "front": "el almuerzo",
+      "back": "lunch",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "almuerzo"
+    },
+    {
+      "id": "u09-food-la-cena",
+      "front": "la cena",
+      "back": "dinner",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "cena"
+    },
+    {
+      "id": "u09-food-la-mesa",
+      "front": "la mesa",
+      "back": "the table",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "exampleFront": "Una mesa para dos, por favor.",
+      "exampleBack": "A table for two, please.",
+      "ttsText": "mesa"
+    },
+    {
+      "id": "u09-food-el-menu-la-carta",
+      "front": "el menú / la carta",
+      "back": "the menu",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "exampleFront": "El menú, por favor.",
+      "exampleBack": "The menu, please.",
+      "ttsText": "menú / la carta"
+    },
+    {
+      "id": "u09-food-el-mesero-camarero",
+      "front": "el mesero / camarero",
+      "back": "the waiter",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "mesero / camarero"
+    },
+    {
+      "id": "u09-food-la-cuenta",
+      "front": "la cuenta",
+      "back": "the bill / check",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "money"
+      ],
+      "exampleFront": "La cuenta, por favor.",
+      "exampleBack": "The check, please.",
+      "ttsText": "cuenta"
+    },
+    {
+      "id": "u09-food-la-propina",
+      "front": "la propina",
+      "back": "the tip",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "money"
+      ],
+      "ttsText": "propina"
+    },
+    {
+      "id": "u09-food-el-agua",
+      "front": "el agua",
+      "back": "water",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "exampleFront": "Un vaso de agua, por favor.",
+      "exampleBack": "A glass of water, please.",
+      "ttsText": "agua"
+    },
+    {
+      "id": "u09-food-agua-sin-gas",
+      "front": "agua sin gas",
+      "back": "still water",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "ttsText": "agua sin gas"
+    },
+    {
+      "id": "u09-food-agua-con-gas",
+      "front": "agua con gas",
+      "back": "sparkling water",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "ttsText": "agua con gas"
+    },
+    {
+      "id": "u09-food-el-cafe",
+      "front": "el café",
+      "back": "coffee",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "ttsText": "café"
+    },
+    {
+      "id": "u09-food-el-te",
+      "front": "el té",
+      "back": "tea",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "ttsText": "té"
+    },
+    {
+      "id": "u09-food-la-leche",
+      "front": "la leche",
+      "back": "milk",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "ttsText": "leche"
+    },
+    {
+      "id": "u09-food-el-jugo",
+      "front": "el jugo",
+      "back": "juice (Latin America)",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "exampleFront": "Un jugo de naranja.",
+      "exampleBack": "An orange juice.",
+      "ttsText": "jugo"
+    },
+    {
+      "id": "u09-food-la-cerveza",
+      "front": "la cerveza",
+      "back": "beer",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "exampleFront": "Dos cervezas, por favor.",
+      "exampleBack": "Two beers, please.",
+      "ttsText": "cerveza"
+    },
+    {
+      "id": "u09-food-el-vino",
+      "front": "el vino",
+      "back": "wine",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "ttsText": "vino"
+    },
+    {
+      "id": "u09-food-el-pan",
+      "front": "el pan",
+      "back": "bread",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "pan"
+    },
+    {
+      "id": "u09-food-la-mantequilla",
+      "front": "la mantequilla",
+      "back": "butter",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "mantequilla"
+    },
+    {
+      "id": "u09-food-el-azucar",
+      "front": "el azúcar",
+      "back": "sugar",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "azúcar"
+    },
+    {
+      "id": "u09-food-la-sal",
+      "front": "la sal",
+      "back": "salt",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "sal"
+    },
+    {
+      "id": "u09-food-el-queso",
+      "front": "el queso",
+      "back": "cheese",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "queso"
+    },
+    {
+      "id": "u09-food-el-huevo",
+      "front": "el huevo",
+      "back": "egg",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "huevo"
+    },
+    {
+      "id": "u09-food-el-pollo",
+      "front": "el pollo",
+      "back": "chicken",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "pollo"
+    },
+    {
+      "id": "u09-food-la-carne",
+      "front": "la carne",
+      "back": "meat",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "carne"
+    },
+    {
+      "id": "u09-food-el-pescado",
+      "front": "el pescado",
+      "back": "fish (food)",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "pescado"
+    },
+    {
+      "id": "u09-food-la-carne-de-res",
+      "front": "la carne de res",
+      "back": "beef",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "carne de res"
+    },
+    {
+      "id": "u09-food-el-arroz",
+      "front": "el arroz",
+      "back": "rice",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "arroz"
+    },
+    {
+      "id": "u09-food-la-papa",
+      "front": "la papa",
+      "back": "potato (Latin America)",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "papa"
+    },
+    {
+      "id": "u09-food-la-ensalada",
+      "front": "la ensalada",
+      "back": "salad",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "ensalada"
+    },
+    {
+      "id": "u09-food-la-sopa",
+      "front": "la sopa",
+      "back": "soup",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "sopa"
+    },
+    {
+      "id": "u09-food-el-postre",
+      "front": "el postre",
+      "back": "dessert",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "postre"
+    },
+    {
+      "id": "u09-food-el-helado",
+      "front": "el helado",
+      "back": "ice cream",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "helado"
+    },
+    {
+      "id": "u09-food-la-manzana",
+      "front": "la manzana",
+      "back": "apple",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "ttsText": "manzana"
+    },
+    {
+      "id": "u09-food-la-naranja",
+      "front": "la naranja",
+      "back": "orange",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "ttsText": "naranja"
+    },
+    {
+      "id": "u09-food-el-platano",
+      "front": "el plátano",
+      "back": "banana / plantain",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "ttsText": "plátano"
+    },
+    {
+      "id": "u09-food-el-tomate",
+      "front": "el tomate",
+      "back": "tomato",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "tomate"
+    },
+    {
+      "id": "u09-food-los-frijoles",
+      "front": "los frijoles",
+      "back": "beans",
+      "unit": "u09-food",
+      "pos": "noun",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "frijoles"
+    },
+    {
+      "id": "u09-food-picante",
+      "front": "picante",
+      "back": "spicy",
+      "unit": "u09-food",
+      "pos": "adj",
+      "tags": [
+        "food"
+      ],
+      "exampleFront": "¿Es picante?",
+      "exampleBack": "Is it spicy?",
+      "ttsText": "picante"
+    },
+    {
+      "id": "u09-food-dulce",
+      "front": "dulce",
+      "back": "sweet",
+      "unit": "u09-food",
+      "pos": "adj",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "dulce"
+    },
+    {
+      "id": "u09-food-salado-a",
+      "front": "salado/a",
+      "back": "salty",
+      "unit": "u09-food",
+      "pos": "adj",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "salado/a"
+    },
+    {
+      "id": "u09-food-rico-a",
+      "front": "rico/a",
+      "back": "delicious / rich",
+      "unit": "u09-food",
+      "pos": "adj",
+      "tags": [
+        "food"
+      ],
+      "exampleFront": "¡Está muy rico!",
+      "exampleBack": "It's really delicious!",
+      "ttsText": "rico/a"
+    },
+    {
+      "id": "u09-food-que-recomienda",
+      "front": "¿qué recomienda?",
+      "back": "what do you recommend?",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "¿qué recomienda?"
+    },
+    {
+      "id": "u09-food-soy-vegetariano-a",
+      "front": "soy vegetariano/a",
+      "back": "I'm vegetarian",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food",
+        "diet"
+      ],
+      "ttsText": "soy vegetariano/a"
+    },
+    {
+      "id": "u09-food-sin-carne",
+      "front": "sin carne",
+      "back": "without meat",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food",
+        "diet"
+      ],
+      "ttsText": "sin carne"
+    },
+    {
+      "id": "u09-food-tengo-alergia-a",
+      "front": "tengo alergia a...",
+      "back": "I'm allergic to...",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exampleFront": "Tengo alergia a los mariscos.",
+      "exampleBack": "I'm allergic to seafood.",
+      "ttsText": "tengo alergia a..."
+    },
+    {
+      "id": "u09-food-el-plato-del-dia",
+      "front": "el plato del día",
+      "back": "the daily special",
+      "unit": "u09-food",
+      "pos": "phrase",
+      "tags": [
+        "food"
+      ],
+      "ttsText": "plato del día"
+    },
+    {
+      "id": "u10-lodging-el-hotel",
+      "front": "el hotel",
+      "back": "hotel",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "hotel"
+    },
+    {
+      "id": "u10-lodging-el-hostal",
+      "front": "el hostal",
+      "back": "hostel",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "hostal"
+    },
+    {
+      "id": "u10-lodging-la-habitacion",
+      "front": "la habitación",
+      "back": "the room",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "¿Tiene habitaciones disponibles?",
+      "exampleBack": "Do you have rooms available?",
+      "ttsText": "habitación"
+    },
+    {
+      "id": "u10-lodging-individual",
+      "front": "individual",
+      "back": "single (room)",
+      "unit": "u10-lodging",
+      "pos": "adj",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "individual"
+    },
+    {
+      "id": "u10-lodging-doble",
+      "front": "doble",
+      "back": "double (room)",
+      "unit": "u10-lodging",
+      "pos": "adj",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "Una habitación doble, por favor.",
+      "exampleBack": "A double room, please.",
+      "ttsText": "doble"
+    },
+    {
+      "id": "u10-lodging-la-llave",
+      "front": "la llave",
+      "back": "the key",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "Perdí la llave.",
+      "exampleBack": "I lost the key.",
+      "ttsText": "llave"
+    },
+    {
+      "id": "u10-lodging-la-cama",
+      "front": "la cama",
+      "back": "the bed",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "cama"
+    },
+    {
+      "id": "u10-lodging-el-bano-privado",
+      "front": "el baño privado",
+      "back": "private bathroom",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "¿Tiene baño privado?",
+      "exampleBack": "Does it have a private bathroom?",
+      "ttsText": "baño privado"
+    },
+    {
+      "id": "u10-lodging-la-ducha",
+      "front": "la ducha",
+      "back": "the shower",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "La ducha no tiene agua caliente.",
+      "exampleBack": "The shower doesn't have hot water.",
+      "ttsText": "ducha"
+    },
+    {
+      "id": "u10-lodging-la-toalla",
+      "front": "la toalla",
+      "back": "the towel",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "toalla"
+    },
+    {
+      "id": "u10-lodging-el-jabon",
+      "front": "el jabón",
+      "back": "soap",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "jabón"
+    },
+    {
+      "id": "u10-lodging-el-papel-higienico",
+      "front": "el papel higiénico",
+      "back": "toilet paper",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "papel higiénico"
+    },
+    {
+      "id": "u10-lodging-la-almohada",
+      "front": "la almohada",
+      "back": "pillow",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "almohada"
+    },
+    {
+      "id": "u10-lodging-la-manta",
+      "front": "la manta",
+      "back": "blanket",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "manta"
+    },
+    {
+      "id": "u10-lodging-el-aire-acondicionado",
+      "front": "el aire acondicionado",
+      "back": "air conditioning",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "aire acondicionado"
+    },
+    {
+      "id": "u10-lodging-la-calefaccion",
+      "front": "la calefacción",
+      "back": "heating",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "calefacción"
+    },
+    {
+      "id": "u10-lodging-el-wifi",
+      "front": "el wifi",
+      "back": "WiFi",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "¿Cuál es la contraseña del wifi?",
+      "exampleBack": "What's the WiFi password?",
+      "ttsText": "wifi"
+    },
+    {
+      "id": "u10-lodging-la-contrasena",
+      "front": "la contraseña",
+      "back": "the password",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "contraseña"
+    },
+    {
+      "id": "u10-lodging-el-ascensor",
+      "front": "el ascensor",
+      "back": "elevator",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "ascensor"
+    },
+    {
+      "id": "u10-lodging-la-recepcion",
+      "front": "la recepción",
+      "back": "the reception / front desk",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "recepción"
+    },
+    {
+      "id": "u10-lodging-registrarse",
+      "front": "registrarse",
+      "back": "to check in",
+      "unit": "u10-lodging",
+      "pos": "verb",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "Quiero registrarme.",
+      "exampleBack": "I'd like to check in.",
+      "ttsText": "registrarse"
+    },
+    {
+      "id": "u10-lodging-la-salida",
+      "front": "la salida",
+      "back": "checkout",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "¿A qué hora es la salida?",
+      "exampleBack": "What time is checkout?",
+      "ttsText": "salida"
+    },
+    {
+      "id": "u10-lodging-la-caja-fuerte",
+      "front": "la caja fuerte",
+      "back": "safe (box)",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "caja fuerte"
+    },
+    {
+      "id": "u10-lodging-ruidoso-a",
+      "front": "ruidoso/a",
+      "back": "noisy",
+      "unit": "u10-lodging",
+      "pos": "adj",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "ruidoso/a"
+    },
+    {
+      "id": "u10-lodging-tranquilo-a",
+      "front": "tranquilo/a",
+      "back": "quiet / calm",
+      "unit": "u10-lodging",
+      "pos": "adj",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "¿Tiene algo más tranquilo?",
+      "exampleBack": "Do you have something quieter?",
+      "ttsText": "tranquilo/a"
+    },
+    {
+      "id": "u10-lodging-la-vista",
+      "front": "la vista",
+      "back": "the view",
+      "unit": "u10-lodging",
+      "pos": "noun",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "vista"
+    },
+    {
+      "id": "u10-lodging-desayuno-incluido",
+      "front": "desayuno incluido",
+      "back": "breakfast included",
+      "unit": "u10-lodging",
+      "pos": "phrase",
+      "tags": [
+        "lodging",
+        "food"
+      ],
+      "exampleFront": "¿El desayuno está incluido?",
+      "exampleBack": "Is breakfast included?",
+      "ttsText": "desayuno incluido"
+    },
+    {
+      "id": "u10-lodging-reservar",
+      "front": "reservar",
+      "back": "to book / reserve",
+      "unit": "u10-lodging",
+      "pos": "verb",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "Quiero reservar una habitación.",
+      "exampleBack": "I want to book a room.",
+      "ttsText": "reservar"
+    },
+    {
+      "id": "u10-lodging-disponible",
+      "front": "disponible",
+      "back": "available",
+      "unit": "u10-lodging",
+      "pos": "adj",
+      "tags": [
+        "lodging"
+      ],
+      "ttsText": "disponible"
+    },
+    {
+      "id": "u10-lodging-una-noche",
+      "front": "una noche",
+      "back": "one night",
+      "unit": "u10-lodging",
+      "pos": "phrase",
+      "tags": [
+        "lodging"
+      ],
+      "exampleFront": "Para tres noches.",
+      "exampleBack": "For three nights.",
+      "ttsText": "noche"
+    },
+    {
+      "id": "u11-money-el-dinero",
+      "front": "el dinero",
+      "back": "money",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "No tengo dinero.",
+      "exampleBack": "I don't have money.",
+      "ttsText": "dinero"
+    },
+    {
+      "id": "u11-money-el-peso",
+      "front": "el peso",
+      "back": "peso (currency)",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Cuántos pesos?",
+      "exampleBack": "How many pesos?",
+      "ttsText": "peso"
+    },
+    {
+      "id": "u11-money-el-dolar",
+      "front": "el dólar",
+      "back": "dollar",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "ttsText": "dólar"
+    },
+    {
+      "id": "u11-money-el-efectivo",
+      "front": "el efectivo",
+      "back": "cash",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "Solo efectivo.",
+      "exampleBack": "Cash only.",
+      "ttsText": "efectivo"
+    },
+    {
+      "id": "u11-money-la-tarjeta",
+      "front": "la tarjeta",
+      "back": "card",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Aceptan tarjeta?",
+      "exampleBack": "Do you accept card?",
+      "ttsText": "tarjeta"
+    },
+    {
+      "id": "u11-money-la-tarjeta-de-credito",
+      "front": "la tarjeta de crédito",
+      "back": "credit card",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "ttsText": "tarjeta de crédito"
+    },
+    {
+      "id": "u11-money-el-cajero-automatico",
+      "front": "el cajero automático",
+      "back": "ATM",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Hay un cajero cerca?",
+      "exampleBack": "Is there an ATM nearby?",
+      "ttsText": "cajero automático"
+    },
+    {
+      "id": "u11-money-el-cambio",
+      "front": "el cambio",
+      "back": "change / exchange",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Tiene cambio?",
+      "exampleBack": "Do you have change?",
+      "ttsText": "cambio"
+    },
+    {
+      "id": "u11-money-cambiar",
+      "front": "cambiar",
+      "back": "to change / exchange",
+      "unit": "u11-money",
+      "pos": "verb",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Dónde puedo cambiar dólares?",
+      "exampleBack": "Where can I exchange dollars?",
+      "ttsText": "cambiar"
+    },
+    {
+      "id": "u11-money-caro-a",
+      "front": "caro/a",
+      "back": "expensive",
+      "unit": "u11-money",
+      "pos": "adj",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "Es muy caro.",
+      "exampleBack": "It's very expensive.",
+      "ttsText": "caro/a"
+    },
+    {
+      "id": "u11-money-barato-a",
+      "front": "barato/a",
+      "back": "cheap",
+      "unit": "u11-money",
+      "pos": "adj",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Tiene algo más barato?",
+      "exampleBack": "Do you have something cheaper?",
+      "ttsText": "barato/a"
+    },
+    {
+      "id": "u11-money-el-descuento",
+      "front": "el descuento",
+      "back": "discount",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Hay descuento?",
+      "exampleBack": "Is there a discount?",
+      "ttsText": "descuento"
+    },
+    {
+      "id": "u11-money-gratis",
+      "front": "gratis",
+      "back": "free (no cost)",
+      "unit": "u11-money",
+      "pos": "adj",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "La entrada es gratis.",
+      "exampleBack": "Entry is free.",
+      "ttsText": "gratis"
+    },
+    {
+      "id": "u11-money-la-tienda",
+      "front": "la tienda",
+      "back": "the shop / store",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money",
+        "shopping"
+      ],
+      "ttsText": "tienda"
+    },
+    {
+      "id": "u11-money-el-mercado",
+      "front": "el mercado",
+      "back": "the market",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money",
+        "shopping"
+      ],
+      "exampleFront": "Vamos al mercado.",
+      "exampleBack": "Let's go to the market.",
+      "ttsText": "mercado"
+    },
+    {
+      "id": "u11-money-pagar",
+      "front": "pagar",
+      "back": "to pay",
+      "unit": "u11-money",
+      "pos": "verb",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Dónde pago?",
+      "exampleBack": "Where do I pay?",
+      "ttsText": "pagar"
+    },
+    {
+      "id": "u11-money-el-recibo",
+      "front": "el recibo",
+      "back": "the receipt",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "exampleFront": "¿Me da el recibo?",
+      "exampleBack": "Can you give me the receipt?",
+      "ttsText": "recibo"
+    },
+    {
+      "id": "u11-money-la-factura",
+      "front": "la factura",
+      "back": "the invoice",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "money"
+      ],
+      "ttsText": "factura"
+    },
+    {
+      "id": "u11-money-abierto-a",
+      "front": "abierto/a",
+      "back": "open",
+      "unit": "u11-money",
+      "pos": "adj",
+      "tags": [
+        "money",
+        "schedule"
+      ],
+      "exampleFront": "¿Están abiertos?",
+      "exampleBack": "Are you open?",
+      "ttsText": "abierto/a"
+    },
+    {
+      "id": "u11-money-cerrado-a",
+      "front": "cerrado/a",
+      "back": "closed",
+      "unit": "u11-money",
+      "pos": "adj",
+      "tags": [
+        "money",
+        "schedule"
+      ],
+      "exampleFront": "Está cerrado los domingos.",
+      "exampleBack": "It's closed on Sundays.",
+      "ttsText": "cerrado/a"
+    },
+    {
+      "id": "u11-money-la-talla",
+      "front": "la talla",
+      "back": "the size (clothes)",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "shopping"
+      ],
+      "exampleFront": "¿Tiene talla mediana?",
+      "exampleBack": "Do you have medium size?",
+      "ttsText": "talla"
+    },
+    {
+      "id": "u11-money-probar",
+      "front": "probar",
+      "back": "to try (on)",
+      "unit": "u11-money",
+      "pos": "verb",
+      "tags": [
+        "shopping"
+      ],
+      "exampleFront": "¿Puedo probármelo?",
+      "exampleBack": "Can I try it on?",
+      "ttsText": "probar"
+    },
+    {
+      "id": "u11-money-devolver",
+      "front": "devolver",
+      "back": "to return (an item)",
+      "unit": "u11-money",
+      "pos": "verb",
+      "tags": [
+        "shopping"
+      ],
+      "ttsText": "devolver"
+    },
+    {
+      "id": "u11-money-el-regalo",
+      "front": "el regalo",
+      "back": "the gift",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "shopping"
+      ],
+      "exampleFront": "Es un regalo.",
+      "exampleBack": "It's a gift.",
+      "ttsText": "regalo"
+    },
+    {
+      "id": "u11-money-la-bolsa",
+      "front": "la bolsa",
+      "back": "the bag",
+      "unit": "u11-money",
+      "pos": "noun",
+      "tags": [
+        "shopping"
+      ],
+      "ttsText": "bolsa"
+    },
+    {
+      "id": "u12-emergency-la-emergencia",
+      "front": "la emergencia",
+      "back": "emergency",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency"
+      ],
+      "ttsText": "emergencia"
+    },
+    {
+      "id": "u12-emergency-la-policia",
+      "front": "la policía",
+      "back": "the police",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "Llame a la policía.",
+      "exampleBack": "Call the police.",
+      "ttsText": "policía"
+    },
+    {
+      "id": "u12-emergency-el-medico",
+      "front": "el médico",
+      "back": "the doctor",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency",
+        "health"
+      ],
+      "exampleFront": "Necesito un médico.",
+      "exampleBack": "I need a doctor.",
+      "ttsText": "médico"
+    },
+    {
+      "id": "u12-emergency-el-la-enfermero-a",
+      "front": "el/la enfermero/a",
+      "back": "the nurse",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency",
+        "health"
+      ],
+      "ttsText": "el/la enfermero/a"
+    },
+    {
+      "id": "u12-emergency-la-medicina",
+      "front": "la medicina",
+      "back": "medicine",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "exampleFront": "Necesito medicina para el dolor.",
+      "exampleBack": "I need pain medicine.",
+      "ttsText": "medicina"
+    },
+    {
+      "id": "u12-emergency-el-dolor",
+      "front": "el dolor",
+      "back": "pain",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "exampleFront": "Tengo dolor aquí.",
+      "exampleBack": "I have pain here.",
+      "ttsText": "dolor"
+    },
+    {
+      "id": "u12-emergency-me-duele",
+      "front": "me duele...",
+      "back": "my ... hurts",
+      "unit": "u12-emergency",
+      "pos": "phrase",
+      "tags": [
+        "health"
+      ],
+      "exampleFront": "Me duele la cabeza.",
+      "exampleBack": "My head hurts.",
+      "ttsText": "me duele..."
+    },
+    {
+      "id": "u12-emergency-la-fiebre",
+      "front": "la fiebre",
+      "back": "fever",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "exampleFront": "Tengo fiebre.",
+      "exampleBack": "I have a fever.",
+      "ttsText": "fiebre"
+    },
+    {
+      "id": "u12-emergency-la-gripe",
+      "front": "la gripe",
+      "back": "flu",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "ttsText": "gripe"
+    },
+    {
+      "id": "u12-emergency-el-resfriado",
+      "front": "el resfriado",
+      "back": "cold (illness)",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "ttsText": "resfriado"
+    },
+    {
+      "id": "u12-emergency-la-alergia",
+      "front": "la alergia",
+      "back": "allergy",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "ttsText": "alergia"
+    },
+    {
+      "id": "u12-emergency-el-estomago",
+      "front": "el estómago",
+      "back": "stomach",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "exampleFront": "Me duele el estómago.",
+      "exampleBack": "My stomach hurts.",
+      "ttsText": "estómago"
+    },
+    {
+      "id": "u12-emergency-la-ambulancia",
+      "front": "la ambulancia",
+      "back": "ambulance",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "Llame una ambulancia.",
+      "exampleBack": "Call an ambulance.",
+      "ttsText": "ambulancia"
+    },
+    {
+      "id": "u12-emergency-urgente",
+      "front": "urgente",
+      "back": "urgent",
+      "unit": "u12-emergency",
+      "pos": "adj",
+      "tags": [
+        "emergency"
+      ],
+      "ttsText": "urgente"
+    },
+    {
+      "id": "u12-emergency-el-peligro",
+      "front": "el peligro",
+      "back": "danger",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency"
+      ],
+      "ttsText": "peligro"
+    },
+    {
+      "id": "u12-emergency-peligroso-a",
+      "front": "peligroso/a",
+      "back": "dangerous",
+      "unit": "u12-emergency",
+      "pos": "adj",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "Este barrio es peligroso de noche.",
+      "exampleBack": "This neighborhood is dangerous at night.",
+      "ttsText": "peligroso/a"
+    },
+    {
+      "id": "u12-emergency-seguro-a",
+      "front": "seguro/a",
+      "back": "safe / sure",
+      "unit": "u12-emergency",
+      "pos": "adj",
+      "tags": [
+        "emergency"
+      ],
+      "ttsText": "seguro/a"
+    },
+    {
+      "id": "u12-emergency-robar",
+      "front": "robar",
+      "back": "to rob / steal",
+      "unit": "u12-emergency",
+      "pos": "verb",
+      "tags": [
+        "emergency"
+      ],
+      "ttsText": "robar"
+    },
+    {
+      "id": "u12-emergency-me-robaron",
+      "front": "me robaron",
+      "back": "I was robbed",
+      "unit": "u12-emergency",
+      "pos": "phrase",
+      "tags": [
+        "emergency"
+      ],
+      "ttsText": "me robaron"
+    },
+    {
+      "id": "u12-emergency-perdi",
+      "front": "perdí...",
+      "back": "I lost...",
+      "unit": "u12-emergency",
+      "pos": "phrase",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "Perdí mi pasaporte.",
+      "exampleBack": "I lost my passport.",
+      "ttsText": "perdí..."
+    },
+    {
+      "id": "u12-emergency-la-embajada",
+      "front": "la embajada",
+      "back": "the embassy",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "¿Dónde está la embajada?",
+      "exampleBack": "Where is the embassy?",
+      "ttsText": "embajada"
+    },
+    {
+      "id": "u12-emergency-llamar",
+      "front": "llamar",
+      "back": "to call",
+      "unit": "u12-emergency",
+      "pos": "verb",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "¿Puede llamar a un doctor?",
+      "exampleBack": "Can you call a doctor?",
+      "ttsText": "llamar"
+    },
+    {
+      "id": "u12-emergency-la-receta",
+      "front": "la receta",
+      "back": "the prescription",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "exampleFront": "Necesito una receta.",
+      "exampleBack": "I need a prescription.",
+      "ttsText": "receta"
+    },
+    {
+      "id": "u12-emergency-la-pastilla",
+      "front": "la pastilla",
+      "back": "the pill / tablet",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "ttsText": "pastilla"
+    },
+    {
+      "id": "u12-emergency-la-venda",
+      "front": "la venda",
+      "back": "bandage",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "health"
+      ],
+      "ttsText": "venda"
+    },
+    {
+      "id": "u12-emergency-el-seguro",
+      "front": "el seguro",
+      "back": "insurance",
+      "unit": "u12-emergency",
+      "pos": "noun",
+      "tags": [
+        "emergency"
+      ],
+      "exampleFront": "Tengo seguro de viaje.",
+      "exampleBack": "I have travel insurance.",
+      "ttsText": "seguro"
+    },
+    {
+      "id": "u13-people-el-hombre",
+      "front": "el hombre",
+      "back": "the man",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "hombre"
+    },
+    {
+      "id": "u13-people-la-mujer",
+      "front": "la mujer",
+      "back": "the woman",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "mujer"
+    },
+    {
+      "id": "u13-people-el-nino",
+      "front": "el niño",
+      "back": "the boy / child",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "niño"
+    },
+    {
+      "id": "u13-people-la-nina",
+      "front": "la niña",
+      "back": "the girl",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "niña"
+    },
+    {
+      "id": "u13-people-el-bebe",
+      "front": "el bebé",
+      "back": "the baby",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "bebé"
+    },
+    {
+      "id": "u13-people-el-padre",
+      "front": "el padre",
+      "back": "the father",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "padre"
+    },
+    {
+      "id": "u13-people-la-madre",
+      "front": "la madre",
+      "back": "the mother",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "madre"
+    },
+    {
+      "id": "u13-people-el-hijo",
+      "front": "el hijo",
+      "back": "the son",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "hijo"
+    },
+    {
+      "id": "u13-people-la-hija",
+      "front": "la hija",
+      "back": "the daughter",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "hija"
+    },
+    {
+      "id": "u13-people-el-hermano",
+      "front": "el hermano",
+      "back": "the brother",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "hermano"
+    },
+    {
+      "id": "u13-people-la-hermana",
+      "front": "la hermana",
+      "back": "the sister",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "hermana"
+    },
+    {
+      "id": "u13-people-el-abuelo",
+      "front": "el abuelo",
+      "back": "the grandfather",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "abuelo"
+    },
+    {
+      "id": "u13-people-la-abuela",
+      "front": "la abuela",
+      "back": "the grandmother",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "abuela"
+    },
+    {
+      "id": "u13-people-el-tio",
+      "front": "el tío",
+      "back": "the uncle",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "tío"
+    },
+    {
+      "id": "u13-people-la-tia",
+      "front": "la tía",
+      "back": "the aunt",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "tía"
+    },
+    {
+      "id": "u13-people-el-primo-la-prima",
+      "front": "el primo / la prima",
+      "back": "the cousin",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "primo / la prima"
+    },
+    {
+      "id": "u13-people-el-esposo",
+      "front": "el esposo",
+      "back": "the husband",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "esposo"
+    },
+    {
+      "id": "u13-people-la-esposa",
+      "front": "la esposa",
+      "back": "the wife",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people",
+        "family"
+      ],
+      "ttsText": "esposa"
+    },
+    {
+      "id": "u13-people-el-novio-la-novia",
+      "front": "el novio / la novia",
+      "back": "boyfriend / girlfriend",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "novio / la novia"
+    },
+    {
+      "id": "u13-people-el-amigo-la-amiga",
+      "front": "el amigo / la amiga",
+      "back": "friend",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "exampleFront": "Es mi amigo.",
+      "exampleBack": "He's my friend.",
+      "ttsText": "amigo / la amiga"
+    },
+    {
+      "id": "u13-people-la-gente",
+      "front": "la gente",
+      "back": "people (collective)",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "exampleFront": "La gente aquí es muy amable.",
+      "exampleBack": "People here are very friendly.",
+      "ttsText": "gente"
+    },
+    {
+      "id": "u13-people-el-vecino-la-vecina",
+      "front": "el vecino / la vecina",
+      "back": "neighbor",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "vecino / la vecina"
+    },
+    {
+      "id": "u13-people-el-senor",
+      "front": "el señor",
+      "back": "sir / Mr.",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "señor"
+    },
+    {
+      "id": "u13-people-la-senora",
+      "front": "la señora",
+      "back": "ma'am / Mrs.",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "señora"
+    },
+    {
+      "id": "u13-people-joven",
+      "front": "joven",
+      "back": "young person / young",
+      "unit": "u13-people",
+      "pos": "noun",
+      "tags": [
+        "people"
+      ],
+      "ttsText": "joven"
+    },
+    {
+      "id": "u14-adjectives-grande",
+      "front": "grande",
+      "back": "big / large",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "grande"
+    },
+    {
+      "id": "u14-adjectives-pequeno-a",
+      "front": "pequeño/a",
+      "back": "small / little",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "pequeño/a"
+    },
+    {
+      "id": "u14-adjectives-alto-a",
+      "front": "alto/a",
+      "back": "tall / high",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "alto/a"
+    },
+    {
+      "id": "u14-adjectives-bajo-a",
+      "front": "bajo/a",
+      "back": "short / low",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "bajo/a"
+    },
+    {
+      "id": "u14-adjectives-joven",
+      "front": "joven",
+      "back": "young",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "joven"
+    },
+    {
+      "id": "u14-adjectives-viejo-a",
+      "front": "viejo/a",
+      "back": "old",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "viejo/a"
+    },
+    {
+      "id": "u14-adjectives-nuevo-a",
+      "front": "nuevo/a",
+      "back": "new",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "nuevo/a"
+    },
+    {
+      "id": "u14-adjectives-bueno-a",
+      "front": "bueno/a",
+      "back": "good",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "bueno/a"
+    },
+    {
+      "id": "u14-adjectives-malo-a",
+      "front": "malo/a",
+      "back": "bad",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "malo/a"
+    },
+    {
+      "id": "u14-adjectives-facil",
+      "front": "fácil",
+      "back": "easy",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "fácil"
+    },
+    {
+      "id": "u14-adjectives-dificil",
+      "front": "difícil",
+      "back": "difficult / hard",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "difícil"
+    },
+    {
+      "id": "u14-adjectives-rapido-a",
+      "front": "rápido/a",
+      "back": "fast / quick",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "rápido/a"
+    },
+    {
+      "id": "u14-adjectives-lento-a",
+      "front": "lento/a",
+      "back": "slow",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "lento/a"
+    },
+    {
+      "id": "u14-adjectives-caliente",
+      "front": "caliente",
+      "back": "hot (temperature)",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "exampleFront": "El café está caliente.",
+      "exampleBack": "The coffee is hot.",
+      "ttsText": "caliente"
+    },
+    {
+      "id": "u14-adjectives-frio-a",
+      "front": "frío/a",
+      "back": "cold",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "frío/a"
+    },
+    {
+      "id": "u14-adjectives-lleno-a",
+      "front": "lleno/a",
+      "back": "full",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "exampleFront": "Está lleno.",
+      "exampleBack": "It's full.",
+      "ttsText": "lleno/a"
+    },
+    {
+      "id": "u14-adjectives-vacio-a",
+      "front": "vacío/a",
+      "back": "empty",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "vacío/a"
+    },
+    {
+      "id": "u14-adjectives-limpio-a",
+      "front": "limpio/a",
+      "back": "clean",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "limpio/a"
+    },
+    {
+      "id": "u14-adjectives-sucio-a",
+      "front": "sucio/a",
+      "back": "dirty",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "sucio/a"
+    },
+    {
+      "id": "u14-adjectives-fuerte",
+      "front": "fuerte",
+      "back": "strong / loud",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "fuerte"
+    },
+    {
+      "id": "u14-adjectives-debil",
+      "front": "débil",
+      "back": "weak",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "débil"
+    },
+    {
+      "id": "u14-adjectives-feliz",
+      "front": "feliz",
+      "back": "happy",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "feliz"
+    },
+    {
+      "id": "u14-adjectives-triste",
+      "front": "triste",
+      "back": "sad",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "triste"
+    },
+    {
+      "id": "u14-adjectives-bonito-a",
+      "front": "bonito/a",
+      "back": "pretty / nice",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "exampleFront": "¡Qué bonito!",
+      "exampleBack": "How pretty!",
+      "ttsText": "bonito/a"
+    },
+    {
+      "id": "u14-adjectives-feo-a",
+      "front": "feo/a",
+      "back": "ugly",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "feo/a"
+    },
+    {
+      "id": "u14-adjectives-largo-a",
+      "front": "largo/a",
+      "back": "long",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "largo/a"
+    },
+    {
+      "id": "u14-adjectives-corto-a",
+      "front": "corto/a",
+      "back": "short (length)",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "corto/a"
+    },
+    {
+      "id": "u14-adjectives-ancho-a",
+      "front": "ancho/a",
+      "back": "wide",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "ttsText": "ancho/a"
+    },
+    {
+      "id": "u14-adjectives-listo-a",
+      "front": "listo/a",
+      "back": "ready / smart",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "exampleFront": "¿Estás listo?",
+      "exampleBack": "Are you ready?",
+      "ttsText": "listo/a"
+    },
+    {
+      "id": "u14-adjectives-libre",
+      "front": "libre",
+      "back": "free (available/liberty)",
+      "unit": "u14-adjectives",
+      "pos": "adj",
+      "tags": [
+        "descriptive"
+      ],
+      "exampleFront": "¿Está libre?",
+      "exampleBack": "Is it available?",
+      "ttsText": "libre"
+    },
+    {
+      "id": "u15-connectors-en",
+      "front": "en",
+      "back": "in / on / at",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Estoy en el hotel.",
+      "exampleBack": "I'm at the hotel.",
+      "ttsText": "en"
+    },
+    {
+      "id": "u15-connectors-de",
+      "front": "de",
+      "back": "of / from",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Soy de Chile.",
+      "exampleBack": "I'm from Chile.",
+      "ttsText": "de"
+    },
+    {
+      "id": "u15-connectors-a",
+      "front": "a",
+      "back": "to / at",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Voy a la tienda.",
+      "exampleBack": "I'm going to the shop.",
+      "ttsText": "a"
+    },
+    {
+      "id": "u15-connectors-con",
+      "front": "con",
+      "back": "with",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Con leche, por favor.",
+      "exampleBack": "With milk, please.",
+      "ttsText": "con"
+    },
+    {
+      "id": "u15-connectors-sin",
+      "front": "sin",
+      "back": "without",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Sin azúcar.",
+      "exampleBack": "Without sugar.",
+      "ttsText": "sin"
+    },
+    {
+      "id": "u15-connectors-por",
+      "front": "por",
+      "back": "for / by / through",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Gracias por todo.",
+      "exampleBack": "Thanks for everything.",
+      "ttsText": "por"
+    },
+    {
+      "id": "u15-connectors-para",
+      "front": "para",
+      "back": "for (purpose) / in order to",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Es para ti.",
+      "exampleBack": "It's for you.",
+      "ttsText": "para"
+    },
+    {
+      "id": "u15-connectors-sobre",
+      "front": "sobre",
+      "back": "on top of / about",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "sobre"
+    },
+    {
+      "id": "u15-connectors-entre",
+      "front": "entre",
+      "back": "between / among",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "entre"
+    },
+    {
+      "id": "u15-connectors-hasta",
+      "front": "hasta",
+      "back": "until / up to",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Hasta mañana.",
+      "exampleBack": "Until tomorrow.",
+      "ttsText": "hasta"
+    },
+    {
+      "id": "u15-connectors-desde",
+      "front": "desde",
+      "back": "from / since",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Desde las ocho.",
+      "exampleBack": "Since eight o'clock.",
+      "ttsText": "desde"
+    },
+    {
+      "id": "u15-connectors-durante",
+      "front": "durante",
+      "back": "during",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "durante"
+    },
+    {
+      "id": "u15-connectors-y",
+      "front": "y",
+      "back": "and",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "y"
+    },
+    {
+      "id": "u15-connectors-o",
+      "front": "o",
+      "back": "or",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "o"
+    },
+    {
+      "id": "u15-connectors-pero",
+      "front": "pero",
+      "back": "but",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Me gusta, pero es caro.",
+      "exampleBack": "I like it, but it's expensive.",
+      "ttsText": "pero"
+    },
+    {
+      "id": "u15-connectors-si",
+      "front": "si",
+      "back": "if",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Si llueve, no voy.",
+      "exampleBack": "If it rains, I won't go.",
+      "ttsText": "si"
+    },
+    {
+      "id": "u15-connectors-como",
+      "front": "como",
+      "back": "like / as",
+      "unit": "u15-connectors",
+      "pos": "prep",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "como"
+    },
+    {
+      "id": "u15-connectors-que",
+      "front": "que",
+      "back": "that / which / who",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "exampleFront": "Creo que sí.",
+      "exampleBack": "I think so.",
+      "ttsText": "que"
+    },
+    {
+      "id": "u15-connectors-cuando",
+      "front": "cuando",
+      "back": "when (not a question)",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "cuando"
+    },
+    {
+      "id": "u15-connectors-mientras",
+      "front": "mientras",
+      "back": "while",
+      "unit": "u15-connectors",
+      "pos": "conj",
+      "tags": [
+        "connector"
+      ],
+      "ttsText": "mientras"
+    },
+    {
+      "id": "u16-body-la-cabeza",
+      "front": "la cabeza",
+      "back": "head",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "cabeza"
+    },
+    {
+      "id": "u16-body-la-cara",
+      "front": "la cara",
+      "back": "face",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "cara"
+    },
+    {
+      "id": "u16-body-el-ojo",
+      "front": "el ojo",
+      "back": "eye",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "ojo"
+    },
+    {
+      "id": "u16-body-la-nariz",
+      "front": "la nariz",
+      "back": "nose",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "nariz"
+    },
+    {
+      "id": "u16-body-la-boca",
+      "front": "la boca",
+      "back": "mouth",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "boca"
+    },
+    {
+      "id": "u16-body-la-oreja",
+      "front": "la oreja",
+      "back": "ear",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "oreja"
+    },
+    {
+      "id": "u16-body-el-diente",
+      "front": "el diente",
+      "back": "tooth",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "exampleFront": "Me duele un diente.",
+      "exampleBack": "My tooth hurts.",
+      "ttsText": "diente"
+    },
+    {
+      "id": "u16-body-la-mano",
+      "front": "la mano",
+      "back": "hand",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "mano"
+    },
+    {
+      "id": "u16-body-el-brazo",
+      "front": "el brazo",
+      "back": "arm",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "brazo"
+    },
+    {
+      "id": "u16-body-la-pierna",
+      "front": "la pierna",
+      "back": "leg",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "pierna"
+    },
+    {
+      "id": "u16-body-el-pie",
+      "front": "el pie",
+      "back": "foot",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "pie"
+    },
+    {
+      "id": "u16-body-la-espalda",
+      "front": "la espalda",
+      "back": "back (body)",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "espalda"
+    },
+    {
+      "id": "u16-body-el-dedo",
+      "front": "el dedo",
+      "back": "finger / toe",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "dedo"
+    },
+    {
+      "id": "u16-body-el-cuerpo",
+      "front": "el cuerpo",
+      "back": "body",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "body"
+      ],
+      "ttsText": "cuerpo"
+    },
+    {
+      "id": "u16-body-la-ropa",
+      "front": "la ropa",
+      "back": "clothing",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "exampleFront": "Necesito comprar ropa.",
+      "exampleBack": "I need to buy clothes.",
+      "ttsText": "ropa"
+    },
+    {
+      "id": "u16-body-la-camisa",
+      "front": "la camisa",
+      "back": "shirt",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "camisa"
+    },
+    {
+      "id": "u16-body-la-camiseta",
+      "front": "la camiseta",
+      "back": "t-shirt",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "camiseta"
+    },
+    {
+      "id": "u16-body-los-pantalones",
+      "front": "los pantalones",
+      "back": "pants / trousers",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "pantalones"
+    },
+    {
+      "id": "u16-body-el-vestido",
+      "front": "el vestido",
+      "back": "dress",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "vestido"
+    },
+    {
+      "id": "u16-body-los-zapatos",
+      "front": "los zapatos",
+      "back": "shoes",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "zapatos"
+    },
+    {
+      "id": "u16-body-las-sandalias",
+      "front": "las sandalias",
+      "back": "sandals",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "sandalias"
+    },
+    {
+      "id": "u16-body-el-sombrero",
+      "front": "el sombrero",
+      "back": "hat",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "sombrero"
+    },
+    {
+      "id": "u16-body-las-gafas-de-sol",
+      "front": "las gafas de sol",
+      "back": "sunglasses",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "gafas de sol"
+    },
+    {
+      "id": "u16-body-el-abrigo",
+      "front": "el abrigo",
+      "back": "coat",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "abrigo"
+    },
+    {
+      "id": "u16-body-la-chaqueta",
+      "front": "la chaqueta",
+      "back": "jacket",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "chaqueta"
+    },
+    {
+      "id": "u16-body-el-sueter",
+      "front": "el suéter",
+      "back": "sweater",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "suéter"
+    },
+    {
+      "id": "u16-body-la-mochila",
+      "front": "la mochila",
+      "back": "backpack",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "travel"
+      ],
+      "ttsText": "mochila"
+    },
+    {
+      "id": "u16-body-el-paraguas",
+      "front": "el paraguas",
+      "back": "umbrella",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "paraguas"
+    },
+    {
+      "id": "u16-body-los-calcetines",
+      "front": "los calcetines",
+      "back": "socks",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing"
+      ],
+      "ttsText": "calcetines"
+    },
+    {
+      "id": "u16-body-la-billetera",
+      "front": "la billetera",
+      "back": "wallet",
+      "unit": "u16-body",
+      "pos": "noun",
+      "tags": [
+        "clothing",
+        "money"
+      ],
+      "exampleFront": "Perdí mi billetera.",
+      "exampleBack": "I lost my wallet.",
+      "ttsText": "billetera"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "decks": [
+    {
+      "id": "spanish-traveler",
+      "file": "spanish-traveler.json",
+      "featured": true
+    }
+  ]
+}
