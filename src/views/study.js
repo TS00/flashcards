@@ -75,30 +75,37 @@ export async function renderStudy(ctx, deckId) {
           ${card.notes ? `<div class="notes">${escape(card.notes)}</div>` : ""}
         </div>
 
-        <div class="hint" id="flip-hint">Press <kbd>Space</kbd> or click to reveal</div>
+        <div class="hint" id="flip-hint">Try to recall the meaning, then press <kbd>Space</kbd> or click to reveal</div>
       </div>
 
-      <div class="grade-row" id="grade-row" hidden>
-        <button class="grade-btn" data-grade="0">
-          <span>Again</span>
-          <span class="interval">${preview.again}</span>
-          <span class="key">1</span>
-        </button>
-        <button class="grade-btn" data-grade="3">
-          <span>Hard</span>
-          <span class="interval">${preview.hard}</span>
-          <span class="key">2</span>
-        </button>
-        <button class="grade-btn" data-grade="4">
-          <span>Good</span>
-          <span class="interval">${preview.good}</span>
-          <span class="key">3</span>
-        </button>
-        <button class="grade-btn" data-grade="5">
-          <span>Easy</span>
-          <span class="interval">${preview.easy}</span>
-          <span class="key">4</span>
-        </button>
+      <div id="grade-row" hidden>
+        <p class="grade-prompt">Did you know the answer? Be honest — pick how well you remembered.</p>
+        <div class="grade-row">
+          <button class="grade-btn" data-grade="0">
+            <span>Again</span>
+            <span class="grade-hint">Didn't know it</span>
+            <span class="interval">${preview.again}</span>
+            <span class="key">1</span>
+          </button>
+          <button class="grade-btn" data-grade="3">
+            <span>Hard</span>
+            <span class="grade-hint">Got it, but struggled</span>
+            <span class="interval">${preview.hard}</span>
+            <span class="key">2</span>
+          </button>
+          <button class="grade-btn" data-grade="4">
+            <span>Good</span>
+            <span class="grade-hint">Remembered fine</span>
+            <span class="interval">${preview.good}</span>
+            <span class="key">3</span>
+          </button>
+          <button class="grade-btn" data-grade="5">
+            <span>Easy</span>
+            <span class="grade-hint">Instant recall</span>
+            <span class="interval">${preview.easy}</span>
+            <span class="key">4</span>
+          </button>
+        </div>
       </div>
     `;
 
@@ -106,6 +113,7 @@ export async function renderStudy(ctx, deckId) {
     const backEl = sessionDiv.querySelector("#back");
     const hintEl = sessionDiv.querySelector("#flip-hint");
     const gradeRow = sessionDiv.querySelector("#grade-row");
+    const gradeButtons = gradeRow.querySelector(".grade-row");
 
     function flip() {
       if (flipped) return;
@@ -200,7 +208,7 @@ export async function renderStudy(ctx, deckId) {
     } else if (["1", "2", "3", "4"].includes(e.key)) {
       const map = { 1: 0, 2: 3, 3: 4, 4: 5 };
       const btn = sessionDiv.querySelector(`.grade-btn[data-grade="${map[e.key]}"]`);
-      if (btn && !btn.closest(".grade-row").hidden) {
+      if (btn && !btn.closest("#grade-row").hidden) {
         e.preventDefault();
         btn.click();
       }

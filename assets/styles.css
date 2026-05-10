@@ -433,6 +433,12 @@ h3 { font-size: 1.1rem; margin: 0 0 .25em; }
   letter-spacing: .04em;
 }
 
+.grade-prompt {
+  text-align: center;
+  color: var(--fg-muted);
+  font-size: .9rem;
+  margin: 0 0 .75rem;
+}
 .grade-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -453,6 +459,7 @@ h3 { font-size: 1.1rem; margin: 0 0 .25em; }
 }
 .grade-btn:hover { background: var(--bg-elev-2); }
 .grade-btn:active { transform: translateY(1px); }
+.grade-btn .grade-hint { font-size: .73rem; color: var(--fg-muted); font-weight: 400; }
 .grade-btn .interval { font-size: .75rem; color: var(--fg-subtle); font-weight: 400; }
 .grade-btn .key { font-size: .7rem; color: var(--fg-subtle); font-family: var(--font-mono); }
 .grade-btn[data-grade="0"] { border-color: color-mix(in srgb, var(--bad) 30%, var(--border-strong)); }
