@@ -72,16 +72,22 @@ export function review(state, quality, now = Date.now()) {
   // Successful recall.
   let intervalDays;
   if (s.reps === 0) {
-    intervalDays = 1;
+    // First review: differentiate clearly so buttons aren't all "1d".
+    // Modeled after Anki's graduated intervals for new cards.
+    if (quality === GRADE.HARD) intervalDays = 1;
+    else if (quality === GRADE.EASY) intervalDays = 4;
+    else intervalDays = 2; // Good
   } else if (s.reps === 1) {
-    intervalDays = 6;
+    if (quality === GRADE.HARD) intervalDays = 4;
+    else if (quality === GRADE.EASY) intervalDays = 10;
+    else intervalDays = 6; // Good
   } else {
     intervalDays = Math.max(1, Math.round(s.interval * s.ef));
-  }
-  if (quality === GRADE.HARD) {
-    intervalDays = Math.max(1, Math.round(intervalDays * 0.6));
-  } else if (quality === GRADE.EASY) {
-    intervalDays = Math.round(intervalDays * 1.3);
+    if (quality === GRADE.HARD) {
+      intervalDays = Math.max(1, Math.round(intervalDays * 0.6));
+    } else if (quality === GRADE.EASY) {
+      intervalDays = Math.round(intervalDays * 1.3);
+    }
   }
   intervalDays = Math.max(1, jitter(intervalDays));
 
