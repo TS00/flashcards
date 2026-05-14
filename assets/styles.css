@@ -437,43 +437,7 @@ h3 { font-size: 1.1rem; margin: 0 0 .25em; }
   padding-top: 1.5rem;
 }
 
-.grade-prompt {
-  text-align: center;
-  color: var(--fg-muted);
-  font-size: .9rem;
-  margin: 0 0 .75rem;
-}
-.grade-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: .65rem;
-  width: 100%;
-  max-width: 640px;
-}
-.grade-btn {
-  border: 1px solid var(--border-strong);
-  background: var(--bg-elev);
-  color: var(--fg);
-  border-radius: var(--radius);
-  padding: .85rem .5rem;
-  display: flex; flex-direction: column; align-items: center; gap: .15rem;
-  font-weight: 500;
-  font-size: .95rem;
-  transition: background .12s ease, border-color .12s ease, transform .04s ease;
-}
-.grade-btn:hover { background: var(--bg-elev-2); }
-.grade-btn:active { transform: translateY(1px); }
-.grade-btn .grade-hint { font-size: .73rem; color: var(--fg-muted); font-weight: 400; }
-.grade-btn .interval { font-size: .75rem; color: var(--fg-subtle); font-weight: 400; }
-.grade-btn .key { font-size: .7rem; color: var(--fg-subtle); font-family: var(--font-mono); }
-.grade-btn[data-grade="0"] { border-color: color-mix(in srgb, var(--bad) 30%, var(--border-strong)); }
-.grade-btn[data-grade="0"]:hover { background: color-mix(in srgb, var(--bad) 8%, var(--bg-elev)); }
-.grade-btn[data-grade="3"] { border-color: color-mix(in srgb, var(--warn) 30%, var(--border-strong)); }
-.grade-btn[data-grade="3"]:hover { background: color-mix(in srgb, var(--warn) 8%, var(--bg-elev)); }
-.grade-btn[data-grade="4"] { border-color: color-mix(in srgb, var(--good) 30%, var(--border-strong)); }
-.grade-btn[data-grade="4"]:hover { background: color-mix(in srgb, var(--good) 8%, var(--bg-elev)); }
-.grade-btn[data-grade="5"] { border-color: color-mix(in srgb, var(--easy) 30%, var(--border-strong)); }
-.grade-btn[data-grade="5"]:hover { background: color-mix(in srgb, var(--easy) 8%, var(--bg-elev)); }
+/* grade buttons removed — flow mode uses Space to advance */
 
 .session-done {
   text-align: center;
@@ -575,7 +539,6 @@ kbd {
 @media (max-width: 640px) {
   .nav { gap: .9rem; font-size: .9rem; }
   .topbar { gap: .75rem; padding: .75rem 1rem; }
-  .grade-row { grid-template-columns: repeat(2, 1fr); }
   .deck-header .actions { width: 100%; }
   .deck-header .actions .btn { flex: 1; justify-content: center; }
   .unit-row { grid-template-columns: 1fr auto; }

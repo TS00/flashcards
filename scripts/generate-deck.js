@@ -582,17 +582,64 @@ const cardData = {
   ],
 };
 
+// Expand gender abbreviations:
+//   "amigo/a"        → display "amigo / amiga",     tts "amigo, amiga"
+//   "el/la turista"  → display "el / la turista",    tts "turista"
+//   "nosotros/as"    → display "nosotros / nosotras", tts "nosotros, nosotras"
+//   "nuestro/a"      → display "nuestro / nuestra",  tts "nuestro, nuestra"
+function expandGender(text) {
+  // Pattern: "word<ending>/<alt>" e.g. "amigo/a", "nosotros/as", "primo/a"
+  return text.replace(/(\S+?)(o|os)(\/)(a|as)\b/g, (_, stem, mascEnd, _slash, femEnd) => {
+    return `${stem}${mascEnd} / ${stem}${femEnd}`;
+  });
+}
+
+function expandGenderForTts(text) {
+  return text.replace(/(\S+?)(o|os)(\/)(a|as)\b/g, (_, stem, mascEnd, _slash, femEnd) => {
+    return `${stem}${mascEnd}, ${stem}${femEnd}`;
+  });
+}
+
+// Handle "el/la" article pattern separately
+function expandArticles(text) {
+  return text.replace(/\bel\/la\b/g, "el / la")
+             .replace(/\blos\/las\b/g, "los / las");
+}
+
+function expandDisplay(text) {
+  return expandArticles(expandGender(text));
+}
+
+function expandTts(text) {
+  let t = expandArticles(expandGenderForTts(text));
+  // Strip "el / la " style article pairs
+  t = t.replace(/\b(el|la|los|las|un|una) \/ (el|la|los|las|un|una) /g, "");
+  // Replace remaining " / " with ", " so TTS pauses instead of saying "slash"
+  t = t.replace(/ \/ /g, ", ");
+  // Strip leading article
+  t = t.replace(/^(el |la |los |las |un |una )/, "");
+  // Strip articles after comma separator
+  t = t.replace(/, (el |la |los |las |un |una )/g, ", ");
+  return t;
+}
+
 // Build the deck.
 const cards = [];
 for (const [unitId, entries] of Object.entries(cardData)) {
   for (const entry of entries) {
     const [front, back, pos, tags, exFront, exBack] = entry;
     const id = unitId + "-" + slugify(front);
-    const card = { id, front, back, unit: unitId, pos };
+    const card = {
+      id,
+      front: expandDisplay(front),
+      back,
+      unit: unitId,
+      pos,
+    };
     if (tags && tags.length) card.tags = tags;
     if (exFront) card.exampleFront = exFront;
     if (exBack) card.exampleBack = exBack;
-    card.ttsText = front.replace(/^(el |la |los |las |un |una )/, "");
+    card.ttsText = expandTts(front);
     cards.push(card);
   }
 }

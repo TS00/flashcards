@@ -5,9 +5,6 @@ export async function renderStudy(ctx, deckId) {
   const progress = ctx.storage.getDeckProgress(deck.meta.id);
   const settings = ctx.storage.getSettings();
 
-  // Build the session ONCE at start. As cards are reviewed they may become
-  // due again immediately (if user pressed Again); we re-add them to the
-  // tail of the session queue.
   const queue = ctx.deckLib.buildSession(deck, progress, settings);
 
   if (queue.length === 0) {
@@ -23,13 +20,15 @@ export async function renderStudy(ctx, deckId) {
   const total = queue.length;
   let index = 0;
   let reviewed = 0;
-  let again = 0;
+  let markedAgain = 0;
   const startTime = Date.now();
 
   const sessionDiv = document.createElement("div");
   sessionDiv.className = "session";
   ctx.root.innerHTML = "";
   ctx.root.appendChild(sessionDiv);
+
+  // ---- render a single card ----
 
   function render() {
     if (index >= queue.length) {
@@ -45,10 +44,7 @@ export async function renderStudy(ctx, deckId) {
     const ttsLang = deck.meta.frontLocale || deck.meta.frontLang;
     const ttsText = card.ttsText || card.front;
     const ttsRate = deck.meta.ttsRate || 0.9;
-
-    const preview = ctx.sm2.intervalPreview(state);
     const progressPct = Math.round((index / total) * 100);
-    const remaining = total - index;
 
     sessionDiv.innerHTML = html`
       <div class="session-header">
@@ -75,110 +71,75 @@ export async function renderStudy(ctx, deckId) {
           ${card.notes ? `<div class="notes">${escape(card.notes)}</div>` : ""}
         </div>
 
-        <div class="hint" id="flip-hint">Try to recall the meaning, then press <kbd>Space</kbd> or click to reveal</div>
-      </div>
-
-      <div id="grade-row" hidden>
-        <p class="grade-prompt">Did you know the answer? Be honest — pick how well you remembered.</p>
-        <div class="grade-row">
-          <button class="grade-btn" data-grade="0">
-            <span>Again</span>
-            <span class="grade-hint">Didn't know it</span>
-            <span class="interval">${preview.again}</span>
-            <span class="key">1</span>
-          </button>
-          <button class="grade-btn" data-grade="3">
-            <span>Hard</span>
-            <span class="grade-hint">Got it, but struggled</span>
-            <span class="interval">${preview.hard}</span>
-            <span class="key">2</span>
-          </button>
-          <button class="grade-btn" data-grade="4">
-            <span>Good</span>
-            <span class="grade-hint">Remembered fine</span>
-            <span class="interval">${preview.good}</span>
-            <span class="key">3</span>
-          </button>
-          <button class="grade-btn" data-grade="5">
-            <span>Easy</span>
-            <span class="grade-hint">Instant recall</span>
-            <span class="interval">${preview.easy}</span>
-            <span class="key">4</span>
-          </button>
-        </div>
+        <div class="hint" id="flip-hint"><kbd>Space</kbd> to reveal</div>
+        <div class="hint" id="next-hint" hidden><kbd>Space</kbd> next · <kbd>1</kbd> mark forgot</div>
       </div>
     `;
 
     const cardEl = sessionDiv.querySelector("#flashcard");
     const backEl = sessionDiv.querySelector("#back");
-    const hintEl = sessionDiv.querySelector("#flip-hint");
-    const gradeRow = sessionDiv.querySelector("#grade-row");
-    const gradeButtons = gradeRow.querySelector(".grade-row");
+    const flipHint = sessionDiv.querySelector("#flip-hint");
+    const nextHint = sessionDiv.querySelector("#next-hint");
+
+    const doSpeak = ctx.tts.isSupported()
+      ? () => ctx.tts.speak(ttsText, { lang: ttsLang, rate: ttsRate })
+      : () => {};
 
     function flip() {
       if (flipped) return;
       flipped = true;
       backEl.hidden = false;
-      hintEl.hidden = true;
-      gradeRow.hidden = false;
-    }
-    cardEl.addEventListener("click", flip);
-    cardEl.addEventListener("keydown", (e) => {
-      if (e.key === " " || e.key === "Enter") {
-        e.preventDefault();
-        flip();
-      }
-    });
-    cardEl.focus();
-
-    sessionDiv.querySelectorAll(".grade-btn").forEach((b) => {
-      b.addEventListener("click", () => grade(parseInt(b.dataset.grade, 10)));
-    });
-
-    sessionDiv.querySelector("#leave-btn").addEventListener("click", leave);
-
-    const speakBtn = sessionDiv.querySelector("#speak-btn");
-    if (speakBtn) {
-      const doSpeak = () => ctx.tts.speak(ttsText, { lang: ttsLang, rate: ttsRate });
-      speakBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        doSpeak();
-      });
-      // Auto-speak on flip too — useful for ear training.
-      cardEl.addEventListener("click", () => {
-        if (flipped) doSpeak();
-      });
+      flipHint.hidden = true;
+      nextHint.hidden = false;
+      doSpeak();
     }
 
-    function grade(quality) {
+    function advance(quality) {
       if (!flipped) return;
       const next = ctx.sm2.review(state, quality);
       ctx.storage.setCardState(deck.meta.id, cardId, next);
       ctx.storage.recordReview(deck.meta.id, ctx.sm2.dayKey(), { wasNew });
       reviewed += 1;
       if (quality < 3) {
-        again += 1;
-        // Re-queue lapsed cards near the end of this session.
+        markedAgain += 1;
         queue.push(card);
       }
       index += 1;
       render();
     }
+
+    cardEl.addEventListener("click", () => {
+      if (!flipped) flip();
+      else advance(ctx.sm2.GRADE.GOOD);
+    });
+
+    const speakBtn = sessionDiv.querySelector("#speak-btn");
+    if (speakBtn) {
+      speakBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        doSpeak();
+      });
+    }
+
+    sessionDiv.querySelector("#leave-btn").addEventListener("click", leave);
+    cardEl.focus();
+
+    // Expose for keyboard handler
+    sessionDiv._cardActions = { flip, advance, doSpeak, isFlipped: () => flipped };
   }
+
+  // ---- session complete ----
 
   function renderDone() {
     const elapsedMin = Math.max(1, Math.round((Date.now() - startTime) / 60000));
-    const accuracy = reviewed === 0 ? 100 : Math.round(((reviewed - again) / reviewed) * 100);
     sessionDiv.innerHTML = html`
       <div class="session-done">
         <div class="big-num">✓</div>
         <h2>Session complete</h2>
         <p style="color:var(--fg-muted); max-width: 40ch">
-          You reviewed <strong>${reviewed}</strong> card${reviewed === 1 ? "" : "s"}
-          in <strong>${elapsedMin}</strong> minute${elapsedMin === 1 ? "" : "s"} —
-          <strong>${accuracy}%</strong> recall.
-          ${accuracy >= 95 ? "Maybe bump up the daily new-card limit." : ""}
-          ${accuracy < 75 ? "Lots of misses — that's normal early on. Keep at it." : ""}
+          You went through <strong>${reviewed}</strong> card${reviewed === 1 ? "" : "s"}
+          in <strong>${elapsedMin}</strong> minute${elapsedMin === 1 ? "" : "s"}.
+          ${markedAgain > 0 ? `Marked <strong>${markedAgain}</strong> to review again.` : ""}
         </p>
         <div style="display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center">
           <a class="btn btn-primary" href="#/deck/${encodeURIComponent(deck.meta.id)}/study">Another round</a>
@@ -187,44 +148,42 @@ export async function renderStudy(ctx, deckId) {
         </div>
       </div>
     `;
+    sessionDiv._cardActions = null;
   }
 
   function leave() {
     if (reviewed > 0) {
-      if (!confirm(`Leave now? Your progress on ${reviewed} reviewed card${reviewed === 1 ? "" : "s"} is saved.`)) return;
+      if (!confirm(`Leave now? Progress on ${reviewed} card${reviewed === 1 ? "" : "s"} is saved.`)) return;
     }
     ctx.navigate(`/deck/${encodeURIComponent(deck.meta.id)}`);
   }
 
-  // Keyboard shortcuts at session level.
+  // ---- keyboard ----
+
   function onKey(e) {
     if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
+    const actions = sessionDiv._cardActions;
+    if (!actions) return;
+
     if (e.key === " ") {
-      const card = sessionDiv.querySelector("#flashcard");
-      if (card) {
+      e.preventDefault();
+      if (!actions.isFlipped()) actions.flip();
+      else actions.advance(ctx.sm2.GRADE.GOOD);
+    } else if (e.key === "1") {
+      // Mark as forgot — only when flipped
+      if (actions.isFlipped()) {
         e.preventDefault();
-        card.click();
-      }
-    } else if (["1", "2", "3", "4"].includes(e.key)) {
-      const map = { 1: 0, 2: 3, 3: 4, 4: 5 };
-      const btn = sessionDiv.querySelector(`.grade-btn[data-grade="${map[e.key]}"]`);
-      if (btn && !btn.closest("#grade-row").hidden) {
-        e.preventDefault();
-        btn.click();
+        actions.advance(ctx.sm2.GRADE.AGAIN);
       }
     } else if (e.key.toLowerCase() === "s") {
-      const speak = sessionDiv.querySelector("#speak-btn");
-      if (speak) {
-        e.preventDefault();
-        speak.click();
-      }
+      e.preventDefault();
+      actions.doSpeak();
     } else if (e.key === "Escape") {
       e.preventDefault();
       leave();
     }
   }
   document.addEventListener("keydown", onKey);
-  // Cleanup when leaving this view.
   const cleanup = () => {
     document.removeEventListener("keydown", onKey);
     window.removeEventListener("hashchange", cleanup);
